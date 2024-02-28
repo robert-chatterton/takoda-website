@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useWindowDimensions } from '../hooks/useWindowDimensions';
-import { IoMdClose, IoMdMenu } from 'react-icons/io';
+import { IoMdClose, IoMdMenu, IoMdMail } from 'react-icons/io';
 import { FaYoutube, FaInstagram } from "react-icons/fa";
 
 export default function Header() {
@@ -30,13 +30,23 @@ export default function Header() {
             </div>
           </a>
         </li>
+        <li>
+          <a href='mailto:takodadionne@gmail.com'>
+            <div className='flex flex-row items-center'>
+              <div className='mr-2'>
+                <IoMdMail color={width > 768 ? '#000' : '#fff'} size={28} />
+              </div>
+              { width <= 768 && <p>takodadionne@gmail.com</p>}
+            </div>
+          </a>
+        </li>
       </ul>
     );
   }, [width]);
 
   return (
     <>
-      <div className='sticky top-0 left-0 bg-white text-black w-full h-[120px] flex flex-row items-center pt-10 px-10 z-10 shadow-lg'>
+      <div className='sticky top-0 left-0 bg-white text-black w-full h-[120px] flex flex-row items-center pt-10 px-10 z-20 shadow-lg'>
         <p className='text-xl font-semibold tracking-wider'>takoda dionne</p>
         <div className='flex-1' />
         {width < 768 ? (

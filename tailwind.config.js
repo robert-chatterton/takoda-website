@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         concert: "url('/src/assets/concert.jpg')",
+        acadia: "url('/src/assets/acadia.jpg')"
       }
     },
   },
