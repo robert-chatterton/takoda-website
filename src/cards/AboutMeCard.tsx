@@ -1,14 +1,31 @@
-import Card from "../components/Card";
+import Card from '../components/Card';
+import GalleryMedia from '../components/GalleryMedia';
 
 export default function AboutMeCard() {
   return (
-    <Card title={'about me'}>
-      <div className='mt-2'>
-        <img src={require('../assets/takoda_climbing.png')} alt='' />
+    <Card slug={'about'} title={'about me'}>
+      <GalleryMedia src={require('../assets/takoda_climbing.png')} />
+      <div className='mt-4 font-thin'>
+        <p>
+          Hi! I'm Takoda, a singer-songwriter born and raised on the coast of Maine currently living in Bar Harbor. I received my first guitar,
+          a Little Martin LX1E, for Christmas 2020. I wrote his first song in
+          2021 while in the seventh grade and started performing at local open
+          mics in July 2023.
+        </p>
+        <br />
+        <p>
+          My original music is a thoughtful and
+          passionate blend of pop, rock, and folk music. Some of my biggest influences
+          include Pearl Jam, Chris Cornell, Ed Sheeran, Passenger, and Nirvana.
+        </p>
+        <br />
+        <p>
+          I layer acoustic guitar, percussion, and bass using a single
+          guitar with live looping and vocals often including layered
+          harmonies.
+        </p>
       </div>
-      <p className='mt-4 font-thin'>
-        I'm a singer-songwriter born and raised on the coast of Maine. He currently lives in Bar Harbor, Maine. Takoda received his first guitar, a Little Martin LX1E, for Christmas 2020. He wrote his first song in 2021 while in the seventh grade and started performing at local open mics in July 2023. Takoda's original music is a thoughtful and passionate blend of pop, rock, and folk music. Some of his influences include: Pearl Jam, Chris Cornell, Ed Sheeran, Passenger, and Nirvana. Takoda layers acoustic guitar, percussion, and bass using a single guitar with live looping and passionate vocals often including layered harmonies.
-      </p>
+      <GalleryMedia src={require('../assets/gallery/2.png')} />
     </Card>
   );
 }

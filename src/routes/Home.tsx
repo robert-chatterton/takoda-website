@@ -1,5 +1,6 @@
 import AboutMeCard from '../cards/AboutMeCard';
 import ContactMeCard from '../cards/ContactMeCard';
+import FeaturedCard from '../cards/FeaturedCard';
 import { GalleryCard } from '../cards/GalleryCard';
 import UpcomingShowCard from '../cards/UpcomingShowCard';
 import Header from '../components/Header';
@@ -7,13 +8,18 @@ import Header from '../components/Header';
 export default function Home() {
   return (
     <>
-      <div className='bg-cover bg-fixed bg-acadia items-center z-20'>
+      <div className='flex flex-col bg-cover bg-fixed bg-acadia items-center z-20 scroll-py-96'>
         <Header />
-        <div className='flex flex-col items-center pb-60'>
-          <UpcomingShowCard />
-          <AboutMeCard />
-          <GalleryCard />
-          <ContactMeCard />
+        <div className='lg:w-4/5 grid grid-cols-1 lg:grid-cols-2 pb-60'>
+          <div className='flex flex-col items-center'>
+            <UpcomingShowCard />
+            <FeaturedCard />
+            <AboutMeCard />
+            <ContactMeCard />
+          </div>
+          <div className='flex flex-col items-center'>
+            <GalleryCard />
+          </div>
         </div>
       </div>
       <div className='fixed top-0 left-0 h-screen w-screen bg-black z-0 opacity-10' />
