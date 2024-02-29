@@ -5,7 +5,7 @@ export default function AboutMeCard() {
   return (
     <Card slug={'about'} title={'about me'}>
       <GalleryMedia src={require('../assets/takoda_climbing.png')} />
-      <div className='mt-4 font-thin'>
+      <div className='font-thin'>
         <p>
           Hi! I'm Takoda, a singer-songwriter born and raised on the coast of Maine currently living in Bar Harbor. I received my first guitar,
           a Little Martin LX1E, for Christmas 2020. I wrote his first song in
