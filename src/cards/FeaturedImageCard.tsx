@@ -1,5 +1,5 @@
-import Card from "../components/Card";
-import GalleryMedia from "../components/GalleryMedia";
+import Card from '../components/Card';
+import GalleryMedia from '../components/GalleryMedia';
 
 export default function FeaturedImageCard() {
   return (

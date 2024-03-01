@@ -4,7 +4,7 @@ import FestivalImage from './routes/Festival';
 
 const router = createBrowserRouter([
   { path: '/', Component: Home },
-  { path: '/festival', Component: FestivalImage }
+  { path: '/festival', Component: FestivalImage },
 ]);
 
 export default function App() {

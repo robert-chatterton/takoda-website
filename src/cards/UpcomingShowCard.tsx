@@ -50,7 +50,9 @@ export default function UpcomingShowCard() {
         </li>
         <li>
           <div className='flex flex-row justify-center items-center my-3'>
-            <a className='mr-1 underline truncate' href='/festival'>Rock and Roots Festival</a>
+            <a className='mr-1 underline truncate' href='/festival'>
+              Rock and Roots Festival
+            </a>
             <p className='font-thin'>Ellsworth, ME</p>
             <div className='flex-1' />
             <p>07.06.24</p>
