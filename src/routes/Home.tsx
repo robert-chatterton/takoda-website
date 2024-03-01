@@ -1,6 +1,7 @@
 import AboutMeCard from '../cards/AboutMeCard';
 import ContactMeCard from '../cards/ContactMeCard';
 import FeaturedCard from '../cards/FeaturedCard';
+import FeaturedImageCard from '../cards/FeaturedImageCard';
 import { GalleryCard } from '../cards/GalleryCard';
 import UpcomingShowCard from '../cards/UpcomingShowCard';
 import Header from '../components/Header';
@@ -12,13 +13,14 @@ export default function Home() {
         <Header />
         <div className='lg:w-4/5 grid grid-cols-1 lg:grid-cols-2 pb-60'>
           <div className='flex flex-col items-center'>
-            <UpcomingShowCard />
+            <FeaturedImageCard />
             <FeaturedCard />
             <AboutMeCard />
             <ContactMeCard />
           </div>
           <div className='flex flex-col items-center'>
             <GalleryCard />
+            <UpcomingShowCard />
           </div>
         </div>
       </div>

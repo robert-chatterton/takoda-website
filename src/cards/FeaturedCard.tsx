@@ -3,7 +3,7 @@ import { youtube, youtubeEmbedLink } from '../constants/links';
 
 export default function FeaturedCard() {
   return (
-    <Card title='listen' slug='featured'>
+    <Card title='Listen' slug='featured'>
       <iframe
         height={250}
         src={youtubeEmbedLink}

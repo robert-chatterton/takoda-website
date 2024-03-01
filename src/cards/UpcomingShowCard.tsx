@@ -2,7 +2,7 @@ import Card from '../components/Card';
 
 export default function UpcomingShowCard() {
   return (
-    <Card slug={'gigs'} title={'upcoming shows'}>
+    <Card slug={'gigs'} title={'Upcoming Shows'}>
       <p className='mt-2 font-thin'>
         I'm playing most weeks at various local open mics (including Fogtown
         Brewing in{' '}
@@ -21,26 +21,26 @@ export default function UpcomingShowCard() {
         </a>
         ) along with many other talented local artists.
       </p>
-      <ul>
+      <ul className='text-xs md:text-sm'>
         <li>
-          <div className='flex flex-row my-3 text-xs md:text-md'>
+          <div className='flex flex-row justify-center items-center my-3'>
             <a
               href='https://maps.app.goo.gl/kHxUAgEgNjV5qsAV8'
               className='mr-1 underline truncate'
             >
               Criterion Theatre
             </a>
-            <p className='font-thin truncate'>Bar Harbor, Maine</p>
+            <p className='font-thin'>Bar Harbor, ME</p>
             <div className='flex-1' />
-            <p className='tracking-wider'>06.15.24</p>
+            <p>06.15.24</p>
           </div>
         </li>
         <li>
-          <div className='flex flex-row my-3 text-xs md:text-md'>
-            <p className='mr-1 truncate'>Rock and Roots Festival</p>
-            <p className='font-thin truncate'>Ellsworth, Maine</p>
+          <div className='flex flex-row justify-center items-center my-3'>
+            <a className='mr-1 underline truncate' href='/'>Rock and Roots Festival</a>
+            <p className='font-thin'>Ellsworth, ME</p>
             <div className='flex-1' />
-            <p className='tracking-wider'>07.06.24</p>
+            <p>07.06.24</p>
           </div>
         </li>
       </ul>

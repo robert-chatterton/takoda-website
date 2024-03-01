@@ -54,7 +54,7 @@ export default function Header() {
   return (
     <>
       <div className='sticky top-0 left-0 bg-white text-black w-full h-[120px] flex flex-row items-center pt-10 px-10 z-20 shadow-lg'>
-        <p className='text-xl font-semibold tracking-wider'>takoda dionne</p>
+        <p className='text-xl font-semibold tracking-wider'>Takoda Dionne</p>
         <div className='flex-1' />
         {width <= 768 ? (
           <button onClick={() => setOpenMenu(true)}>
@@ -69,7 +69,7 @@ export default function Header() {
         <div className='bg-black fixed top-0 left-0 w-screen h-screen z-20 flex flex-row justify-center items-start pt-16 px-10 text-white'>
           <div className='mt-1'>
             <p className='text-xl font-semibold tracking-wider mb-5'>
-              takoda dionne
+              Takoda Dionne
             </p>
             {menu}
           </div>

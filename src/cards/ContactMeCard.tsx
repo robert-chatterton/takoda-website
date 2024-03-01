@@ -3,7 +3,7 @@ import { email } from '../constants/links';
 
 export default function ContactMeCard() {
   return (
-    <Card slug={'contact'} title={'contact me'}>
+    <Card slug={'contact'} title={'Contact Me'}>
       <p className='mt-4 font-thin'>
         It's best to reach me by my email,{' '}
         <a className='underline' href={`mailto:${email}`}>
