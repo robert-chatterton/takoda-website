@@ -25,6 +25,19 @@ export default function UpcomingShowCard() {
         <li>
           <div className='flex flex-row justify-center items-center my-3'>
             <a
+              href='https://maps.app.goo.gl/jnQUgzmrdv7Lvab38'
+              className='mr-1 underline truncate'
+            >
+              Fogtown Brewing
+            </a>
+            <p className='font-thin'>Ellsworth, ME</p>
+            <div className='flex-1' />
+            <p>05.24.24</p>
+          </div>
+        </li>
+        <li>
+          <div className='flex flex-row justify-center items-center my-3'>
+            <a
               href='https://maps.app.goo.gl/kHxUAgEgNjV5qsAV8'
               className='mr-1 underline truncate'
             >
@@ -44,9 +57,6 @@ export default function UpcomingShowCard() {
           </div>
         </li>
       </ul>
-      <a className='text-sm font-thin underline' href='#contact'>
-        Contact me about performance opportunities!
-      </a>
     </Card>
   );
 }
