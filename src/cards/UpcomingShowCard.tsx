@@ -3,7 +3,7 @@ import Card from '../components/Card';
 export default function UpcomingShowCard() {
   return (
     <Card slug={'gigs'} title={'Upcoming Shows'}>
-      <p className='mt-2 font-thin'>
+      {/* <p className='mt-2 font-thin'>
         I'm playing most weeks at various local open mics (including Fogtown
         Brewing in{' '}
         <a
@@ -20,8 +20,24 @@ export default function UpcomingShowCard() {
           Bar Harbor
         </a>
         ) along with many other talented local artists.
-      </p>
+      </p> */}
       <ul className='text-xs md:text-sm'>
+        <li>
+          <div className='flex flex-col'>
+            <div className='flex flex-row justify-center items-center my-3'>
+              <a
+                href='https://www.trentongrange.com/'
+                className='mr-1 underline truncate'
+              >
+                Trenton Grange
+              </a>
+              <p className='font-thin'>Trenton, ME</p>
+              <div className='flex-1' />
+              <p>04.27.24</p>
+            </div>
+            <p className='text-xs font-thin text-gray-700 ml-4 -mt-2'>Opens at 5:30PM - $10 at the door</p>
+          </div>
+        </li>
         <li>
           <div className='flex flex-row justify-center items-center my-3'>
             <a
