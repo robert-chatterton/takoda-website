@@ -61,6 +61,19 @@ export default function UpcomingShowCard() {
             </a>
             <p className='font-thin'>Bar Harbor, ME</p>
             <div className='flex-1' />
+            <p>05.25.24</p>
+          </div>
+        </li>
+        <li>
+          <div className='flex flex-row justify-center items-center my-3'>
+            <a
+              href='https://maps.app.goo.gl/kHxUAgEgNjV5qsAV8'
+              className='mr-1 underline truncate'
+            >
+              Criterion Theatre
+            </a>
+            <p className='font-thin'>Bar Harbor, ME</p>
+            <div className='flex-1' />
             <p>06.15.24</p>
           </div>
         </li>
