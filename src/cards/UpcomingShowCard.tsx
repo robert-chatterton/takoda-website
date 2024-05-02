@@ -30,7 +30,7 @@ export default function UpcomingShowCard() {
             >
               Ivy Manor Inn
             </a>
-            <p className='font-thin'>Ellsworth, ME</p>
+            <p className='font-thin'>Bar Harbor, ME</p>
             <div className='flex-1' />
             <p>05.09.24</p>
           </div>
@@ -87,7 +87,7 @@ export default function UpcomingShowCard() {
             <div className='flex-1' />
             <p>07.06.24</p>
           </div>
-          <p className='text-xs font-thin text-gray-700 ml-4 -mt-2'>Show starts at 11AM</p>
+          <p className='text-xs font-thin text-gray-700 ml-4 -mt-2'>Show starts at 11AM, I'm on at 12PM!</p>
         </li>
       </ul>
     </Card>
