@@ -23,21 +23,19 @@ export default function UpcomingShowCard() {
       </p> */}
       <ul className='text-xs md:text-sm'>
         <li>
-          <div className='flex flex-col'>
-            <div className='flex flex-row justify-center items-center my-3'>
-              <a
-                href='https://www.trentongrange.com/'
-                className='mr-1 underline truncate'
-              >
-                Trenton Grange
-              </a>
-              <p className='font-thin'>Trenton, ME</p>
-              <div className='flex-1' />
-              <p>04.27.24</p>
-            </div>
-            <p className='text-xs font-thin text-gray-700 ml-4 -mt-2'>Opens at 5:30PM - $10 at the door</p>
+          <div className='flex flex-row justify-center items-center my-3'>
+            <a
+              href='https://www.ivymanor.com/'
+              className='mr-1 underline truncate'
+            >
+              Ivy Manor Inn
+            </a>
+            <p className='font-thin'>Ellsworth, ME</p>
+            <div className='flex-1' />
+            <p>05.09.24</p>
           </div>
-        </li>
+          <p className='text-xs font-thin text-gray-700 ml-4 -mt-2'>Show starts at 2PM</p>
+        </li> 
         <li>
           <div className='flex flex-row justify-center items-center my-3'>
             <a
@@ -50,6 +48,7 @@ export default function UpcomingShowCard() {
             <div className='flex-1' />
             <p>05.24.24</p>
           </div>
+          <p className='text-xs font-thin text-gray-700 ml-4 -mt-2'>Show starts at 6PM</p>
         </li>
         <li>
           <div className='flex flex-row justify-center items-center my-3'>
@@ -63,6 +62,7 @@ export default function UpcomingShowCard() {
             <div className='flex-1' />
             <p>05.25.24</p>
           </div>
+          <p className='text-xs font-thin text-gray-700 ml-4 -mt-2'>Opens at 6PM - Show starts at 7PM</p>
         </li>
         <li>
           <div className='flex flex-row justify-center items-center my-3'>
@@ -76,6 +76,7 @@ export default function UpcomingShowCard() {
             <div className='flex-1' />
             <p>06.15.24</p>
           </div>
+          <p className='text-xs font-thin text-gray-700 ml-4 -mt-2'>Opens at 6PM - Show starts at 7PM</p>
         </li>
         <li>
           <div className='flex flex-row justify-center items-center my-3'>
@@ -86,6 +87,7 @@ export default function UpcomingShowCard() {
             <div className='flex-1' />
             <p>07.06.24</p>
           </div>
+          <p className='text-xs font-thin text-gray-700 ml-4 -mt-2'>Show starts at 11AM</p>
         </li>
       </ul>
     </Card>
