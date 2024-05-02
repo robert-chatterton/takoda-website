@@ -9,7 +9,7 @@ import Header from '../components/Header';
 export default function Home() {
   return (
     <>
-      <div className='flex flex-col bg-cover bg-fixed bg-acadia items-center z-20 scroll-py-96'>
+      <div className='flex flex-col bg-left-top bg-fixed md:bg-cover bg-acadia items-center z-20 scroll-py-96'>
         <Header />
         <div className='lg:w-4/5 grid grid-cols-1 lg:grid-cols-2 pb-60'>
           <div className='flex flex-col items-center'>
