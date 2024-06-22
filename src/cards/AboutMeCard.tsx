@@ -16,7 +16,6 @@ export default function AboutMeCard() {
           local venues including Fogtown Brewing Company, the Ivy Manor Inn and
           Criterion Theatre in Bar Harbor.
         </p>
-        <br />
         <GalleryMedia src={require('../assets/gallery/DSC_0272.png')} />
         <p>
           Some of his influences include: Ed Sheeran, Shawn Mendes, Passenger,
