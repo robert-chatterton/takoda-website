@@ -9,25 +9,25 @@ export default function AboutMeCard() {
       </div>
       <div className='font-thin'>
         <p>
-          Hi! I'm Takoda, a singer-songwriter born and raised on the coast of
-          Maine currently living in Bar Harbor. I received my first guitar, a
-          Little Martin LX1E, for Christmas 2020. I wrote my first song in 2021
-          while in the seventh grade and started performing at local open mics
-          in July 2023.
+          Takoda Dionne is a singer-songwriter born and raised on the coast of
+          Maine. He currently lives in Bar Harbor. Takoda received his first
+          guitar, a Little Martin LX1E, for Christmas 2020 but he played it so
+          much it needed to take early retirement. He has played at numerous
+          local venues including Fogtown Brewing Company, the Ivy Manor Inn and
+          Criterion Theatre in Bar Harbor.
         </p>
         <br />
+        <GalleryMedia src={require('../assets/gallery/DSC_0272.png')} />
         <p>
-          My original music is a thoughtful and passionate blend of pop, rock,
-          and folk music. Some of my biggest influences include Pearl Jam, Chris
-          Cornell, Ed Sheeran, Passenger, and Nirvana.
-        </p>
-        <br />
-        <p>
-          I layer acoustic guitar, percussion, and bass using a single guitar
-          with live looping and vocals often including layered harmonies.
+          Some of his influences include: Ed Sheeran, Shawn Mendes, Passenger,
+          Chris Cornell, Noah Kahan and Pearl Jam. Takoda plays an eclectic
+          selection of covers and his original music is a thoughtful and
+          passionate blend of pop, rock, and folk music. Takoda layers acoustic
+          guitar, percussion, and bass using a single guitar with live looping
+          and passionate vocals often including layered harmonies.
         </p>
       </div>
-      <GalleryMedia src={require('../assets/gallery/2.png')} />
+      <GalleryMedia src={require('../assets/gallery/guitar.png')} />
     </Card>
   );
 }

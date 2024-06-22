@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body:before {
-  content: "";
+  content: '';
   display: block;
   position: fixed;
   left: 0;
@@ -12,7 +12,7 @@ body:before {
   height: 100vh;
   min-height: max-content;
   z-index: -10;
-  background: url('/src/assets/acadia.jpg') no-repeat center center;
+  background: url('/src/assets/gallery/DSC_0574.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

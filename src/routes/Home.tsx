@@ -6,13 +6,12 @@ import { GalleryCard } from '../cards/GalleryCard';
 import UpcomingShowCard from '../cards/UpcomingShowCard';
 import Header from '../components/Header';
 
-//  bg-no-repeat bg-fixed md:bg-cover bg-acadia
 export default function Home() {
   return (
     <>
       <div className='overscroll-none flex flex-col items-center z-20 scroll-py-96'>
         <Header />
-        <div className='h-[120px]'/>
+        <div className='h-[120px]' />
         <div className='lg:w-4/5 grid grid-cols-1 lg:grid-cols-2 pb-60'>
           <div className='flex flex-col items-center'>
             <FeaturedImageCard />
