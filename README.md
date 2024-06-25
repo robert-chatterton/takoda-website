@@ -1,9 +1,5 @@
 [takodadionne.com](https://takodadionne.com)
 
-Domain valid until 2/28/2025, purchased through GoDaddy
-
-Commits to `main` will deploy through Netlify
-
 ## Available Scripts
 
 In the project directory, you can run:
