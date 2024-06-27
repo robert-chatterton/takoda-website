@@ -30,7 +30,7 @@ export default function UpcomingShowCard() {
           linkUrl='https://www.mofga.org/'
           linkFormat='MOFGA Benefit'
           location='Lamoine, ME'
-          date='08.27.24'
+          date='08.17.24'
           subtitle='Show from 6PM - 7:30PM'
         />
       </ul>
