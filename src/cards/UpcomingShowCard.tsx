@@ -9,22 +9,50 @@ export default function UpcomingShowCard() {
           linkUrl='https://www.ivymanor.com/'
           linkFormat='Ivy Manor Inn'
           location='Bar Harbor, ME'
-          date='07.04.24'
-          subtitle='Show from 11AM - 2PM'
+          date='07.18.24'
+          subtitle='Show from 2PM - 5PM'
         />
         <UpcomingShow
-          linkUrl='/festival'
-          linkFormat='Rock and Roots Festival'
-          location='Ellsworth, ME'
-          date='07.06.24'
-          subtitle="Show starts at 11AM, I'm on at 12PM!"
+          linkUrl='https://willowind.org/'
+          linkFormat='Willowind Therapeutic Riding Center'
+          location='Bar Harbor, ME'
+          date='07.24.24'
+          subtitle=''
         />
         <UpcomingShow
           linkUrl='https://www.ivymanor.com/'
           linkFormat='Ivy Manor Inn'
           location='Bar Harbor, ME'
-          date='07.11.24'
-          subtitle='Shows from 2PM - 5PM every Thursday until 08.22.24!'
+          date='07.25.24'
+          subtitle='Show from 2PM - 5PM'
+        />
+        <UpcomingShow
+          linkUrl='https://www.ivymanor.com/'
+          linkFormat='Ivy Manor Inn'
+          location='Bar Harbor, ME'
+          date='08.03.24'
+          subtitle='Show from 2PM - 5PM'
+        />
+        <UpcomingShow
+          linkUrl='https://www.ivymanor.com/'
+          linkFormat='Ivy Manor Inn'
+          location='Bar Harbor, ME'
+          date='08.07.24'
+          subtitle='Show from 2PM - 5PM'
+        />
+        <UpcomingShow
+          linkUrl='https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/'
+          linkFormat='Black Moon Public House'
+          location='Ellsworth, ME'
+          date='08.10.24'
+          subtitle='Show from 6PM - 8PM'
+        />
+        <UpcomingShow
+          linkUrl='https://www.ivymanor.com/'
+          linkFormat='Ivy Manor Inn'
+          location='Bar Harbor, ME'
+          date='08.15.24'
+          subtitle='Show from 2PM - 5PM'
         />
         <UpcomingShow
           linkUrl='https://www.mofga.org/'
@@ -32,6 +60,20 @@ export default function UpcomingShowCard() {
           location='Lamoine, ME'
           date='08.17.24'
           subtitle='Show from 6PM - 7:30PM'
+        />
+        <UpcomingShow
+          linkUrl='https://www.ivymanor.com/'
+          linkFormat='Ivy Manor Inn'
+          location='Bar Harbor, ME'
+          date='08.22.24'
+          subtitle='Show from 2PM - 5PM'
+        />
+        <UpcomingShow
+          linkUrl='https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/'
+          linkFormat='Black Moon Public House'
+          location='Ellsworth, ME'
+          date='08.31.24'
+          subtitle='Show from 6PM - 8PM'
         />
       </ul>
     </Card>
