@@ -17,7 +17,7 @@ export default function UpcomingShowCard() {
           linkFormat='Willowind Therapeutic Riding Center'
           location='Bar Harbor, ME'
           date='07.24.24'
-          subtitle=''
+          subtitle='Show from 5:30PM - 7PM'
         />
         <UpcomingShow
           linkUrl='https://www.ivymanor.com/'
