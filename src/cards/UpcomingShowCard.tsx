@@ -59,7 +59,7 @@ export default function UpcomingShowCard() {
           linkFormat='The Annex'
           location='Bar Harbor, ME'
           date='09.04.24'
-          subtitle='Show from 6PM - 8PM'
+          subtitle='Show from 8PM - 10PM'
         />
         <UpcomingShow
           linkUrl='https://maps.app.goo.gl/NJzqocr9J3DXrVcJA'
@@ -73,21 +73,21 @@ export default function UpcomingShowCard() {
           linkFormat='The Annex'
           location='Bar Harbor, ME'
           date='09.25.24'
-          subtitle='Show from 6PM - 8PM'
+          subtitle='Show from 8PM - 10PM'
         />
         <UpcomingShow
           linkUrl='https://www.facebook.com/TheAnnexBH/'
           linkFormat='The Annex'
           location='Bar Harbor, ME'
           date='10.09.24'
-          subtitle='Show from 6PM - 8PM'
+          subtitle='Show from 8PM - 10PM'
         />
         <UpcomingShow
           linkUrl='https://www.facebook.com/TheAnnexBH/'
           linkFormat='The Annex'
           location='Bar Harbor, ME'
           date='10.16.24'
-          subtitle='Show from 6PM - 8PM'
+          subtitle='Show from 8PM - 10PM'
         />
         <UpcomingShow
           linkUrl='https://maps.app.goo.gl/NJzqocr9J3DXrVcJA'
