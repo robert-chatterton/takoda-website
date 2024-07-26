@@ -24,6 +24,9 @@ export default function Home() {
             <UpcomingShowCard />
           </div>
         </div>
+        <div className='mb-10'>
+          <p className='text-white font-thin'>Photography by Bos Lily</p>
+        </div>
       </div>
       <div className='fixed top-0 left-0 h-screen w-screen bg-black z-0 opacity-10' />
     </>
