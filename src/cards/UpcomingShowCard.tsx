@@ -16,7 +16,7 @@ export default function UpcomingShowCard() {
           linkUrl='https://www.ivymanor.com/'
           linkFormat='Ivy Manor Inn'
           location='Bar Harbor, ME'
-          date='08.07.24'
+          date='08.08.24'
           subtitle='Show from 2PM - 5PM'
         />
         <UpcomingShow
