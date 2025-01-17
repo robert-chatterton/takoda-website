@@ -13,14 +13,14 @@ export default function UpcomingShowCard() {
           subtitle='Show from 6PM - 9PM'
         />
         <UpcomingShow
-          linkUrl='https://maps.app.goo.gl/8bShNrWx1Qzezr7r7'
+          linkUrl='https://maps.app.goo.gl/EL7cHibCbQ3sfmqA7'
           linkFormat='Fogtown Brewing'
           location='Ellsworth, ME'
           date='01.31.25'
           subtitle='Show from 6PM - 8PM'
         />
         <UpcomingShow
-          linkUrl='https://maps.app.goo.gl/8bShNrWx1Qzezr7r7'
+          linkUrl='https://maps.app.goo.gl/EL7cHibCbQ3sfmqA7'
           linkFormat='Fogtown Brewing'
           location='Ellsworth, ME'
           date='03.16.25'
@@ -41,7 +41,7 @@ export default function UpcomingShowCard() {
           subtitle='Show from 6PM - 9PM'
         />
         <UpcomingShow
-          linkUrl='https://maps.app.goo.gl/8bShNrWx1Qzezr7r7'
+          linkUrl='https://maps.app.goo.gl/EL7cHibCbQ3sfmqA7'
           linkFormat='Fogtown Brewing'
           location='Ellsworth, ME'
           date='05.30.25'
@@ -69,7 +69,7 @@ export default function UpcomingShowCard() {
           subtitle='Show from 6PM - 9PM'
         />
         <UpcomingShow
-          linkUrl='https://maps.app.goo.gl/8bShNrWx1Qzezr7r7'
+          linkUrl='https://maps.app.goo.gl/EL7cHibCbQ3sfmqA7'
           linkFormat='Fogtown Brewing'
           location='Ellsworth, ME'
           date='08.01.25'
