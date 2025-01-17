@@ -6,88 +6,102 @@ export default function UpcomingShowCard() {
     <Card slug={'gigs'} title={'Upcoming Shows'}>
       <ul className='text-xs md:text-sm'>
         <UpcomingShow
-          linkUrl='https://www.ivymanor.com/'
-          linkFormat='Ivy Manor Inn'
-          location='Bar Harbor, ME'
-          date='08.29.24'
-          subtitle='Show from 2PM - 5PM'
+          linkUrl='https://maps.app.goo.gl/NJzqocr9J3DXrVcJA'
+          linkFormat='Orono Brewing Company'
+          location='Orono, ME'
+          date='01.24.25'
+          subtitle='Show from 6PM - 9PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/8bShNrWx1Qzezr7r7'
+          linkFormat='Fogtown Brewing'
+          location='Ellsworth, ME'
+          date='01.31.25'
+          subtitle='Show from 6PM - 8PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/8bShNrWx1Qzezr7r7'
+          linkFormat='Fogtown Brewing'
+          location='Ellsworth, ME'
+          date='03.16.25'
+          subtitle='Show from 4PM - 6PM'
         />
         <UpcomingShow
           linkUrl='https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/'
           linkFormat='Black Moon Public House'
           location='Ellsworth, ME'
-          date='08.31.24'
+          date='04.11.25'
           subtitle='Show from 6PM - 8PM'
-        />
-        <UpcomingShow
-          linkUrl='https://www.ivymanor.com/'
-          linkFormat='Ivy Manor Inn'
-          location='Bar Harbor, ME'
-          date='09.02.24'
-          subtitle='Show from 12PM - 2:30PM'
-        />
-        <UpcomingShow
-          linkUrl='https://www.facebook.com/TheAnnexBH/'
-          linkFormat='The Annex'
-          location='Bar Harbor, ME'
-          date='09.04.24'
-          subtitle='Show from 8PM - 10PM'
         />
         <UpcomingShow
           linkUrl='https://maps.app.goo.gl/NJzqocr9J3DXrVcJA'
           linkFormat='Orono Brewing Company'
           location='Orono, ME'
-          date='09.06.24'
+          date='05.02.25'
+          subtitle='Show from 6PM - 9PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/8bShNrWx1Qzezr7r7'
+          linkFormat='Fogtown Brewing'
+          location='Ellsworth, ME'
+          date='05.30.25'
           subtitle='Show from 6PM - 8PM'
         />
         <UpcomingShow
-          linkUrl='https://www.ivymanor.com/'
-          linkFormat='Ivy Manor Inn'
-          location='Bar Harbor, ME'
-          date='09.07.24'
-          subtitle='Show from 2PM - 5PM'
+          linkUrl='https://maps.app.goo.gl/P27EKfqVv18D1hAu9'
+          linkFormat="Nor'Easter"
+          location='Northeast Harbor, ME'
+          date='06.21.25'
+          subtitle='Show from 7PM - 10PM'
         />
         <UpcomingShow
-          linkUrl='https://www.ivymanor.com/'
-          linkFormat='Ivy Manor Inn'
-          location='Bar Harbor, ME'
-          date='09.12.24'
-          subtitle='Show from 2PM - 5PM'
-        />
-        <UpcomingShow
-          linkUrl='https://www.facebook.com/TheAnnexBH/'
-          linkFormat='The Annex'
-          location='Bar Harbor, ME'
-          date='09.25.24'
-          subtitle='Show from 8PM - 10PM'
-        />
-        <UpcomingShow
-          linkUrl='https://www.facebook.com/TheAnnexBH/'
-          linkFormat='The Annex'
-          location='Bar Harbor, ME'
-          date='10.09.24'
-          subtitle='Show from 8PM - 10PM'
-        />
-        <UpcomingShow
-          linkUrl='https://www.facebook.com/TheAnnexBH/'
-          linkFormat='The Annex'
-          location='Bar Harbor, ME'
-          date='10.16.24'
-          subtitle='Show from 8PM - 10PM'
-        />
-        <UpcomingShow
-          linkUrl='https://www.barharbormusicfestival.org/'
-          linkFormat='Bar Harbor Music Festival'
-          location='Bar Harbor, ME'
-          date='10.20.24'
-          subtitle='Show from 2PM - 5PM @ the Ivy Manor Inn'
+          linkUrl='https://maps.app.goo.gl/P27EKfqVv18D1hAu9'
+          linkFormat="Nor'Easter"
+          location='Northeast Harbor, ME'
+          date='07.19.25'
+          subtitle='Show from 7PM - 10PM'
         />
         <UpcomingShow
           linkUrl='https://maps.app.goo.gl/NJzqocr9J3DXrVcJA'
           linkFormat='Orono Brewing Company'
           location='Orono, ME'
-          date='11.22.24'
+          date='07.25.25'
+          subtitle='Show from 6PM - 9PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/8bShNrWx1Qzezr7r7'
+          linkFormat='Fogtown Brewing'
+          location='Ellsworth, ME'
+          date='08.01.25'
           subtitle='Show from 6PM - 8PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/P27EKfqVv18D1hAu9'
+          linkFormat="Nor'Easter"
+          location='Northeast Harbor, ME'
+          date='08.16.25'
+          subtitle='Show from 7PM - 10PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/P27EKfqVv18D1hAu9'
+          linkFormat="Nor'Easter"
+          location='Northeast Harbor, ME'
+          date='09.13.25'
+          subtitle='Show from 6PM - 9PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/NJzqocr9J3DXrVcJA'
+          linkFormat='Orono Brewing Company'
+          location='Orono, ME'
+          date='09.26.25'
+          subtitle='Show from 6PM - 8PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/P27EKfqVv18D1hAu9'
+          linkFormat="Nor'Easter"
+          location='Northeast Harbor, ME'
+          date='10.11.25'
+          subtitle='Show from 6PM - 9PM'
         />
       </ul>
     </Card>
