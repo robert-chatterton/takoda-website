@@ -55,8 +55,12 @@ export default function Header() {
     <>
       <div className='fixed top-0 left-0 bg-white text-black w-full h-[120px] flex flex-row items-center pt-10 px-10 z-20 shadow-lg'>
         <div className='flex flex-col md:flex-row items-center gap-0 md:gap-4'>
-          <p className='text-xl md:text-3xl font-semibold tracking-wide'>Takoda Dionne</p>
-          <p className='text-lg md:text-xl font-light md:tracking-widest'>Live Looping Musician</p>
+          <p className='text-xl md:text-3xl font-semibold tracking-wide'>
+            Takoda Dionne
+          </p>
+          <p className='text-lg md:text-xl font-light md:tracking-widest'>
+            Live Looping Musician
+          </p>
         </div>
         <div className='flex-1' />
         {width <= 768 ? (

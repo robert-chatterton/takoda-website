@@ -41,11 +41,25 @@ export default function UpcomingShowCard() {
           subtitle='Show from 6PM - 9PM'
         />
         <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/tPtNh2HJBR4ueRxx8'
+          linkFormat='The Travelin Lobster'
+          location='Bar Harbor, ME'
+          date='05.26.25'
+          subtitle='Show from 5PM - 7PM'
+        />
+        <UpcomingShow
           linkUrl='https://maps.app.goo.gl/EL7cHibCbQ3sfmqA7'
           linkFormat='Fogtown Brewing'
           location='Ellsworth, ME'
           date='05.30.25'
           subtitle='Show from 6PM - 8PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/tPtNh2HJBR4ueRxx8'
+          linkFormat='The Travelin Lobster'
+          location='Bar Harbor, ME'
+          date='06.09.25'
+          subtitle='Show from 5PM - 7PM'
         />
         <UpcomingShow
           linkUrl='https://maps.app.goo.gl/P27EKfqVv18D1hAu9'
@@ -55,11 +69,32 @@ export default function UpcomingShowCard() {
           subtitle='Show from 7PM - 10PM'
         />
         <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/tPtNh2HJBR4ueRxx8'
+          linkFormat='The Travelin Lobster'
+          location='Bar Harbor, ME'
+          date='06.23.25'
+          subtitle='Show from 5PM - 7PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/tPtNh2HJBR4ueRxx8'
+          linkFormat='The Travelin Lobster'
+          location='Bar Harbor, ME'
+          date='07.07.25'
+          subtitle='Show from 5PM - 7PM'
+        />
+        <UpcomingShow
           linkUrl='https://maps.app.goo.gl/P27EKfqVv18D1hAu9'
           linkFormat="Nor'Easter"
           location='Northeast Harbor, ME'
           date='07.19.25'
           subtitle='Show from 7PM - 10PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/tPtNh2HJBR4ueRxx8'
+          linkFormat='The Travelin Lobster'
+          location='Bar Harbor, ME'
+          date='07.21.25'
+          subtitle='Show from 5PM - 7PM'
         />
         <UpcomingShow
           linkUrl='https://maps.app.goo.gl/NJzqocr9J3DXrVcJA'
@@ -76,11 +111,32 @@ export default function UpcomingShowCard() {
           subtitle='Show from 6PM - 8PM'
         />
         <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/tPtNh2HJBR4ueRxx8'
+          linkFormat='The Travelin Lobster'
+          location='Bar Harbor, ME'
+          date='08.04.25'
+          subtitle='Show from 5PM - 7PM'
+        />
+        <UpcomingShow
           linkUrl='https://maps.app.goo.gl/P27EKfqVv18D1hAu9'
           linkFormat="Nor'Easter"
           location='Northeast Harbor, ME'
           date='08.16.25'
           subtitle='Show from 7PM - 10PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/tPtNh2HJBR4ueRxx8'
+          linkFormat='The Travelin Lobster'
+          location='Bar Harbor, ME'
+          date='08.18.25'
+          subtitle='Show from 5PM - 7PM'
+        />
+        <UpcomingShow
+          linkUrl='https://maps.app.goo.gl/tPtNh2HJBR4ueRxx8'
+          linkFormat='The Travelin Lobster'
+          location='Bar Harbor, ME'
+          date='09.01.25'
+          subtitle='Show from 5PM - 7PM'
         />
         <UpcomingShow
           linkUrl='https://maps.app.goo.gl/P27EKfqVv18D1hAu9'

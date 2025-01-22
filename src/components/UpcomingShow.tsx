@@ -21,7 +21,7 @@ export default function UpcomingShow({
         <div className='flex-1' />
         <p>{date}</p>
       </div>
-      <p className='text-xs font-thin text-gray-700 ml-4 -mt-2'>{subtitle}</p>
+      {/* <p className='text-xs font-thin text-gray-700 ml-4 -mt-2'>{subtitle}</p> */}
     </li>
   );
 }
