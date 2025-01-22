@@ -1,4 +1,5 @@
 import Card from '../components/Card';
+import GalleryMedia from '../components/GalleryMedia';
 import { email } from '../constants/links';
 
 export default function ContactMeCard() {
@@ -12,6 +13,7 @@ export default function ContactMeCard() {
         </a>
         .
       </p>
+      <GalleryMedia src={require('../assets/gallery/IMG_3872.jpeg')} />
     </Card>
   );
 }

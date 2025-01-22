@@ -8,7 +8,6 @@ export function GalleryCard() {
         <GalleryMedia src={require('../assets/gallery/DSC00137.jpeg')} />
         <GalleryMedia src={require('../assets/gallery/DSC_0746.png')} />
         <GalleryMedia src={require('../assets/gallery/IMG_3403.jpeg')} />
-        <GalleryMedia src={require('../assets/gallery/IMG_3872.jpeg')} />
       </div>
     </Card>
   );

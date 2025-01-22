@@ -15,11 +15,11 @@ export default function Home() {
         <div className='lg:w-4/5 grid grid-cols-1 lg:grid-cols-2 pb-60'>
           <div className='flex flex-col items-center'>
             <FeaturedImageCard />
-            <FeaturedCard />
             <AboutMeCard />
             <ContactMeCard />
           </div>
           <div className='flex flex-col items-center'>
+            <FeaturedCard />
             <GalleryCard />
             <UpcomingShowCard />
           </div>
