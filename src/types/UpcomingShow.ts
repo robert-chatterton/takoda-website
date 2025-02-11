@@ -35,3 +35,9 @@ export const ivyManor = {
   format: 'Ivy Manor Inn',
   location: 'Bar Harbor, ME',
 };
+
+export const annex = {
+  url: 'https://maps.app.goo.gl/HMerPCYEZPUQcyDC7',
+  format: 'The Annex',
+  location: 'Bar Harbor, ME',
+};

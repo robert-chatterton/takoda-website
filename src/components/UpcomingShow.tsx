@@ -21,8 +21,8 @@ export default function UpcomingShow({
       </div>
 
       <div className='flex flex-col items-end'>
-        <p>{date}</p>
-        <p className='text-xs font-thin text-gray-700'>{subtitle}</p>
+        <p className='text-nowrap'>{date}</p>
+        <p className='text-nowrap text-xs font-thin text-gray-700'>{subtitle}</p>
       </div>
     </li>
   );

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import UpcomingShow from '../components/UpcomingShow';
-import { fogtownBrewingCompany, ivyManor, norEaster, oronoBrewingCompany, travelinLobster, UpcomingShowProps } from '../types/UpcomingShow';
+import { annex, fogtownBrewingCompany, ivyManor, norEaster, oronoBrewingCompany, travelinLobster, UpcomingShowProps } from '../types/UpcomingShow';
 
 export default function UpcomingShowCard() {
   const shows: UpcomingShowProps[] = [
@@ -52,6 +52,11 @@ export default function UpcomingShowCard() {
       subtitle: '2PM - 5PM',
     },
     {
+      ...annex,
+      date: '05.21.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
       ...ivyManor,
       date: '05.25.25',
       subtitle: '2PM - 5PM',
@@ -60,6 +65,11 @@ export default function UpcomingShowCard() {
       ...travelinLobster,
       date: '05.26.25',
       subtitle: '5PM - 7PM',
+    },
+    {
+      ...annex,
+      date: '05.28.25',
+      subtitle: '5PM - 7:30PM',
     },
     {
       ...fogtownBrewingCompany,
@@ -72,6 +82,11 @@ export default function UpcomingShowCard() {
       subtitle: '2PM - 5PM',
     },
     {
+      ...annex,
+      date: '06.04.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
       ...ivyManor,
       date: '06.08.25',
       subtitle: '2PM - 5PM',
@@ -80,6 +95,16 @@ export default function UpcomingShowCard() {
       ...travelinLobster,
       date: '06.09.25',
       subtitle: '5PM - 7PM',
+    },
+    {
+      ...annex,
+      date: '06.11.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...annex,
+      date: '06.18.25',
+      subtitle: '5PM - 7:30PM',
     },
     {
       ...norEaster,
@@ -92,6 +117,16 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7PM',
     },
     {
+      ...annex,
+      date: '06.25.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...annex,
+      date: '07.02.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
       ...ivyManor,
       date: '07.04.25',
       subtitle: '11AM - 2PM',
@@ -100,6 +135,16 @@ export default function UpcomingShowCard() {
       ...travelinLobster,
       date: '07.07.25',
       subtitle: '5PM - 7PM',
+    },
+    {
+      ...annex,
+      date: '07.09.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...annex,
+      date: '07.16.25',
+      subtitle: '5PM - 7:30PM',
     },
     {
       ...norEaster,
@@ -112,9 +157,19 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7PM',
     },
     {
+      ...annex,
+      date: '07.23.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
       ...oronoBrewingCompany,
       date: '07.25.25',
       subtitle: '6PM - 9PM',
+    },
+    {
+      ...annex,
+      date: '07.30.25',
+      subtitle: '5PM - 7:30PM',
     },
     {
       ...fogtownBrewingCompany,
@@ -127,6 +182,16 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7PM',
     },
     {
+      ...annex,
+      date: '08.06.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...annex,
+      date: '08.13.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
       ...norEaster,
       date: '08.16.25',
       subtitle: '7PM - 10PM',
@@ -137,9 +202,29 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7PM',
     },
     {
+      ...annex,
+      date: '08.20.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...annex,
+      date: '08.27.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
       ...travelinLobster,
       date: '09.01.25',
       subtitle: '5PM - 7PM',
+    },
+    {
+      ...annex,
+      date: '09.03.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...annex,
+      date: '09.10.25',
+      subtitle: '5PM - 7:30PM',
     },
     {
       ...norEaster,
@@ -147,14 +232,39 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 9PM',
     },
     {
+      ...annex,
+      date: '09.17.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...annex,
+      date: '09.24.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
       ...oronoBrewingCompany,
       date: '09.26.25',
       subtitle: '6PM - 8PM',
     },
     {
+      ...annex,
+      date: '10.01.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...annex,
+      date: '10.08.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
       ...norEaster,
       date: '10.11.25',
       subtitle: '6PM - 9PM',
+    },
+    {
+      ...annex,
+      date: '10.15.25',
+      subtitle: '5PM - 7:30PM',
     },
   ];
 

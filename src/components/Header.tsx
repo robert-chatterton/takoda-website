@@ -19,8 +19,8 @@ export default function Header() {
     return (
       <ul className='flex flex-col md:flex-row gap-3 font-light items-start md:items-center'>
         <li>
-          <a href='#shows'>
-            <div className='mr-2'>
+          <a href='#shows' onClick={() => setOpenMenu(false)}>
+            <div className='flex flex-row items-center gap-2'>
               <MdOutlineSchedule color={width >= 768 ? '#000' : '#fff'} size={28} />
               {width < 768 && <p className='text-nowrap'>Upcoming Shows</p>}
             </div>
@@ -28,30 +28,24 @@ export default function Header() {
         </li>
         <li>
           <a href={youtube}>
-            <div className='flex flex-row items-center'>
-              <div className='mr-2'>
-                <FaYoutube color={width >= 768 ? '#000' : '#fff'} size={28} />
-              </div>
+            <div className='flex flex-row items-center gap-2'>
+              <FaYoutube color={width >= 768 ? '#000' : '#fff'} size={28} />
               {width < 768 && <p>{youtubeHandle}</p>}
             </div>
           </a>
         </li>
         <li>
           <a href={instagram}>
-            <div className='flex flex-row items-center'>
-              <div className='mr-2'>
-                <FaInstagram color={width >= 768 ? '#000' : '#fff'} size={28} />
-              </div>
+            <div className='flex flex-row items-center gap-2'>
+              <FaInstagram color={width >= 768 ? '#000' : '#fff'} size={28} />
               {width < 768 && <p>{instagramHandle}</p>}
             </div>
           </a>
         </li>
         <li>
           <a href={`mailto:${email}`}>
-            <div className='flex flex-row items-center'>
-              <div className='mr-2'>
-                <IoMdMail color={width >= 768 ? '#000' : '#fff'} size={28} />
-              </div>
+            <div className='flex flex-row items-center gap-2'>
+              <IoMdMail color={width >= 768 ? '#000' : '#fff'} size={28} />
               {width < 768 && <p>{email}</p>}
             </div>
           </a>

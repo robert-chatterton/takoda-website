@@ -25,13 +25,13 @@ export default function Home() {
         <div className='w-full flex flex-col items-center'>
           <UpcomingShowCard />
         </div>
-        <div className='my-10 flex flex-col items-center'>
-          <p className='text-white font-thin'>To book a private party, benefit, or gig it is best to reach me by my email,{' '}
+        <div className='mx-2 mt-10 mb-20 flex flex-col gap-4 items-center text-sm md:text-md text-center text-white font-thin'>
+          <p>To book a private party, benefit, or gig it is best to reach me by my email,{' '}
             <a className='underline' href={`mailto:${email}`}>
               {email}
             </a>
           </p>
-          <p className='text-white font-thin'>Photography by Bos Lisy</p>
+          <p>Photography by Bos Lisy</p>
         </div>
       </div>
       <div className='fixed top-0 left-0 h-screen w-screen bg-black z-0 opacity-10' />
