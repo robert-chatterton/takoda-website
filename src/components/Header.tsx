@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useWindowDimensions } from '../hooks/useWindowDimensions';
 import { IoMdClose, IoMdMenu, IoMdMail } from 'react-icons/io';
+import { MdOutlineSchedule } from "react-icons/md";
 import { FaYoutube, FaInstagram } from 'react-icons/fa';
 import {
   email,
@@ -16,14 +17,22 @@ export default function Header() {
 
   const menu = useMemo(() => {
     return (
-      <ul className='flex flex-col md:flex-row gap-3 font-light'>
+      <ul className='flex flex-col md:flex-row gap-3 font-light items-start md:items-center'>
+        <li>
+          <a href='#shows'>
+            <div className='mr-2'>
+              <MdOutlineSchedule color={width >= 768 ? '#000' : '#fff'} size={28} />
+              {width < 768 && <p className='text-nowrap'>Upcoming Shows</p>}
+            </div>
+          </a>
+        </li>
         <li>
           <a href={youtube}>
             <div className='flex flex-row items-center'>
               <div className='mr-2'>
-                <FaYoutube color={width > 768 ? '#000' : '#fff'} size={28} />
+                <FaYoutube color={width >= 768 ? '#000' : '#fff'} size={28} />
               </div>
-              {width <= 768 && <p>{youtubeHandle}</p>}
+              {width < 768 && <p>{youtubeHandle}</p>}
             </div>
           </a>
         </li>
@@ -31,9 +40,9 @@ export default function Header() {
           <a href={instagram}>
             <div className='flex flex-row items-center'>
               <div className='mr-2'>
-                <FaInstagram color={width > 768 ? '#000' : '#fff'} size={28} />
+                <FaInstagram color={width >= 768 ? '#000' : '#fff'} size={28} />
               </div>
-              {width <= 768 && <p>{instagramHandle}</p>}
+              {width < 768 && <p>{instagramHandle}</p>}
             </div>
           </a>
         </li>
@@ -41,9 +50,9 @@ export default function Header() {
           <a href={`mailto:${email}`}>
             <div className='flex flex-row items-center'>
               <div className='mr-2'>
-                <IoMdMail color={width > 768 ? '#000' : '#fff'} size={28} />
+                <IoMdMail color={width >= 768 ? '#000' : '#fff'} size={28} />
               </div>
-              {width <= 768 && <p>{email}</p>}
+              {width < 768 && <p>{email}</p>}
             </div>
           </a>
         </li>
@@ -55,15 +64,15 @@ export default function Header() {
     <>
       <div className='fixed top-0 left-0 bg-white text-black w-full h-[120px] flex flex-row items-center pt-10 px-10 z-20 shadow-lg'>
         <div className='flex flex-col md:flex-row items-center gap-0 md:gap-4'>
-          <p className='text-xl md:text-3xl font-semibold tracking-wide'>
+          <p className='text-xl md:text-3xl font-semibold tracking-wide text-nowrap'>
             Takoda Dionne
           </p>
-          <p className='text-lg md:text-xl font-light md:tracking-widest'>
+          <p className='text-lg md:text-xl font-light md:tracking-widest  text-nowrap'>
             Live Looping Musician
           </p>
         </div>
         <div className='flex-1' />
-        {width <= 768 ? (
+        {width < 768 ? (
           <button onClick={() => setOpenMenu(true)}>
             <IoMdMenu size={32} />
           </button>
@@ -75,7 +84,7 @@ export default function Header() {
       {openMenu && (
         <div className='bg-black fixed top-0 left-0 w-screen h-screen z-20 flex flex-row justify-center items-start pt-16 px-10 text-white'>
           <div className='mt-1'>
-            <p className='text-xl font-semibold tracking-wider mb-5'>
+            <p className='text-xl font-semibold tracking-wide mb-5 text-nowrap'>
               Takoda Dionne
             </p>
             {menu}

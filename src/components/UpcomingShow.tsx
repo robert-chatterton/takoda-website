@@ -12,16 +12,18 @@ export default function UpcomingShow({
   subtitle: string;
 }) {
   return (
-    <li>
-      <div className='flex flex-row justify-center items-center my-3'>
-        <a href={linkUrl} className='mr-1 underline truncate'>
+    <li className='py-1 flex flex-row justify-between items-center gap-1'>
+      <div className='flex flex-col items-start'>
+        <a href={linkUrl} className='underline truncate'>
           {linkFormat}
         </a>
-        <p className='font-thin'>{location}</p>
-        <div className='flex-1' />
-        <p>{date}</p>
+        <p className='text-xs font-thin'>{location}</p>
       </div>
-      {/* <p className='text-xs font-thin text-gray-700 ml-4 -mt-2'>{subtitle}</p> */}
+
+      <div className='flex flex-col items-end'>
+        <p>{date}</p>
+        <p className='text-xs font-thin text-gray-700'>{subtitle}</p>
+      </div>
     </li>
   );
 }
