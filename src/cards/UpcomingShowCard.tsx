@@ -1,8 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import UpcomingShow from '../components/UpcomingShow';
+import { Switch } from '@mui/material';
 import { annex, fogtownBrewingCompany, ivyManor, norEaster, oronoBrewingCompany, travelinLobster, UpcomingShowProps } from '../types/UpcomingShow';
+import { useState } from 'react';
+import { UpcomingShowsByDate } from '../components/UpcomingShowsByDate';
+import { UpcomingShowsByVenue } from '../components/UpcomingShowsByVenue';
 
 export default function UpcomingShowCard() {
+  const [showMode, setShowMode] = useState('date');
+
   const shows: UpcomingShowProps[] = [
     {
       ...oronoBrewingCompany,
@@ -274,24 +279,19 @@ export default function UpcomingShowCard() {
         <a id={'shows'} className='font-semibold text-lg tracking-wider'>
           Upcoming Shows
         </a>
-        {/* <p>slider</p> */}
-      </div>
-      <div className='text-xs flex flex-row items-center justify-between font-extralight uppercase mt-2'>
-        <p>Venue</p>
-        <p>Date</p>
-      </div>
-      <ul className='flex flex-col text-xs md:text-sm divide-y'>
-        {shows.map((show, idx) => (
-          <UpcomingShow
-            key={idx}
-            linkUrl={show.url}
-            linkFormat={show.format}
-            location={show.location}
-            date={show.date}
-            subtitle={show.subtitle}
+        <div className='text-xs flex flex-row items-center font-extralight uppercase'>
+          <p>Venue</p>
+          <Switch
+            color={'error'}
+            defaultChecked
+            value={showMode === 'venue'}
+            onChange={() => setShowMode(prev => prev === 'date' ? 'venue' : 'date')}
           />
-        ))}
-      </ul>
+          <p>Date</p>
+        </div>
+      </div>
+      {showMode === 'date' && <UpcomingShowsByDate shows={shows} />}
+      {showMode === 'venue' && <UpcomingShowsByVenue shows={shows} />}
     </div>
   );
 }
