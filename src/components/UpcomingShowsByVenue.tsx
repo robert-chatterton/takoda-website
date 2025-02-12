@@ -1,10 +1,14 @@
-import { useMemo } from "react";
-import { UpcomingShowProps } from "../types/UpcomingShow";
+import { useMemo } from 'react';
+import { UpcomingShowProps } from '../types/UpcomingShow';
 
-export function UpcomingShowsByVenue({ shows }: { shows: UpcomingShowProps[] }) {
+export function UpcomingShowsByVenue({
+  shows,
+}: {
+  shows: UpcomingShowProps[];
+}) {
   const venueRecords = useMemo(() => {
     const map = new Map<string, UpcomingShowProps[]>();
-    shows.forEach(show => {
+    shows.forEach((show) => {
       if (map.has(show.format)) {
         const existing = map.get(show.format) as UpcomingShowProps[];
         map.set(show.format, [...existing, show]);
@@ -14,8 +18,8 @@ export function UpcomingShowsByVenue({ shows }: { shows: UpcomingShowProps[] }) 
     });
     const records: { format: string; shows: UpcomingShowProps[] }[] = [];
     map.forEach((shows, format) => {
-      records.push({ format, shows })
-    })
+      records.push({ format, shows });
+    });
 
     return records.sort((a, b) => a.shows.length - b.shows.length);
   }, [shows]);
@@ -36,12 +40,27 @@ export function UpcomingShowsByVenue({ shows }: { shows: UpcomingShowProps[] }) 
               <p className='text-xs font-thin'>{shows[0]?.location}</p>
             </div>
             <div className='mt-1 flex flex-row gap-2'>
-              <div className='flex flex-col items-end text-nowrap text-xs text-right'>
-                {shows.map((show, showIdx) => <p key={showIdx}>{show.date}</p>)}
-              </div>
-              <div className='flex flex-col items-end text-nowrap text-xs text-right font-thin text-gray-700'>
-                {shows.map((show, showIdx) => <p key={showIdx}>{show.subtitle}</p>)}
-              </div>
+              {shows.length === 1 ? (
+                <div className='flex flex-col items-end text-nowrap text-xs text-right'>
+                  <p>{shows[0]?.date}</p>
+                  <p className='font-thin text-gray-700'>
+                    {shows[0]?.subtitle}
+                  </p>
+                </div>
+              ) : (
+                <>
+                  <div className='flex flex-col items-end text-nowrap text-xs text-right'>
+                    {shows.map((show, showIdx) => (
+                      <p key={showIdx}>{show.date}</p>
+                    ))}
+                  </div>
+                  <div className='flex flex-col items-end text-nowrap text-xs text-right font-thin text-gray-700'>
+                    {shows.map((show, showIdx) => (
+                      <p key={showIdx}>{show.subtitle}</p>
+                    ))}
+                  </div>
+                </>
+              )}
             </div>
           </li>
         ))}

@@ -1,6 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Switch } from '@mui/material';
-import { annex, fogtownBrewingCompany, ivyManor, norEaster, oronoBrewingCompany, travelinLobster, UpcomingShowProps } from '../types/UpcomingShow';
+import {
+  annex,
+  exploreAcadiaCottages,
+  fogtownBrewingCompany,
+  ivyManor,
+  norEaster,
+  oronoBrewingCompany,
+  travelinLobster,
+  UpcomingShowProps,
+} from '../types/UpcomingShow';
 import { useState } from 'react';
 import { UpcomingShowsByDate } from '../components/UpcomingShowsByDate';
 import { UpcomingShowsByVenue } from '../components/UpcomingShowsByVenue';
@@ -17,19 +26,26 @@ export default function UpcomingShowCard() {
     {
       ...fogtownBrewingCompany,
       date: '01.31.25',
-      subtitle: '6PM - 8PM'
+      subtitle: '6PM - 8PM',
+    },
+    {
+      url: 'https://maps.app.goo.gl/KidB63rPYS8hxinL9',
+      format: 'The Thirsty Pig',
+      location: 'Portland, ME',
+      date: '02.20.25',
+      subtitle: '5:30PM - 6PM',
     },
     {
       ...fogtownBrewingCompany,
       date: '03.16.25',
-      subtitle: '4PM - 6PM'
+      subtitle: '4PM - 6PM',
     },
     {
       url: 'https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/',
       format: 'Black Moon Public House',
       location: 'Ellsworth, ME',
       date: '04.11.25',
-      subtitle: '6PM - 8PM',
+      subtitle: "Takoda's Birthday Bash! 6PM - 8PM",
     },
     {
       ...oronoBrewingCompany,
@@ -79,7 +95,7 @@ export default function UpcomingShowCard() {
     {
       ...fogtownBrewingCompany,
       date: '05.30.25',
-      subtitle: '6PM - 8PM'
+      subtitle: '6PM - 8PM',
     },
     {
       ...ivyManor,
@@ -105,6 +121,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '06.11.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...exploreAcadiaCottages,
+      date: '06.17.25',
+      subtitle: '4:30PM - 7PM',
     },
     {
       ...annex,
@@ -145,6 +166,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '07.09.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...exploreAcadiaCottages,
+      date: '07.15.25',
+      subtitle: '4:30PM - 7PM',
     },
     {
       ...annex,
@@ -207,6 +233,11 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7PM',
     },
     {
+      ...exploreAcadiaCottages,
+      date: '08.19.25',
+      subtitle: '4:30PM - 7PM',
+    },
+    {
       ...annex,
       date: '08.20.25',
       subtitle: '5PM - 7:30PM',
@@ -235,6 +266,11 @@ export default function UpcomingShowCard() {
       ...norEaster,
       date: '09.13.25',
       subtitle: '6PM - 9PM',
+    },
+    {
+      ...exploreAcadiaCottages,
+      date: '09.16.25',
+      subtitle: '4:30PM - 7PM',
     },
     {
       ...annex,
@@ -285,7 +321,9 @@ export default function UpcomingShowCard() {
             color={'error'}
             defaultChecked
             value={showMode === 'venue'}
-            onChange={() => setShowMode(prev => prev === 'date' ? 'venue' : 'date')}
+            onChange={() =>
+              setShowMode((prev) => (prev === 'date' ? 'venue' : 'date'))
+            }
           />
           <p>Date</p>
         </div>

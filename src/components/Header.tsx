@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useWindowDimensions } from '../hooks/useWindowDimensions';
 import { IoMdClose, IoMdMenu, IoMdMail } from 'react-icons/io';
-import { MdOutlineSchedule } from "react-icons/md";
+import { MdOutlineSchedule } from 'react-icons/md';
 import { FaYoutube, FaInstagram } from 'react-icons/fa';
 import {
   email,
@@ -21,7 +21,10 @@ export default function Header() {
         <li>
           <a href='#shows' onClick={() => setOpenMenu(false)}>
             <div className='flex flex-row items-center gap-2'>
-              <MdOutlineSchedule color={width >= 768 ? '#000' : '#fff'} size={28} />
+              <MdOutlineSchedule
+                color={width >= 768 ? '#000' : '#fff'}
+                size={28}
+              />
               {width < 768 && <p className='text-nowrap'>Upcoming Shows</p>}
             </div>
           </a>

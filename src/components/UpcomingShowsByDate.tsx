@@ -1,4 +1,4 @@
-import { UpcomingShowProps } from "../types/UpcomingShow";
+import { UpcomingShowProps } from '../types/UpcomingShow';
 
 function UpcomingShow({
   linkUrl,
@@ -24,7 +24,9 @@ function UpcomingShow({
 
       <div className='flex flex-col items-end'>
         <p className='text-nowrap'>{date}</p>
-        <p className='text-nowrap text-xs font-thin text-gray-700'>{subtitle}</p>
+        <p className='text-nowrap text-xs font-thin text-gray-700'>
+          {subtitle}
+        </p>
       </div>
     </li>
   );
@@ -50,5 +52,5 @@ export function UpcomingShowsByDate({ shows }: { shows: UpcomingShowProps[] }) {
         ))}
       </ul>
     </>
-  )
+  );
 }

@@ -26,7 +26,9 @@ export default function Home() {
           <UpcomingShowCard />
         </div>
         <div className='mx-2 mt-10 mb-20 flex flex-col gap-4 items-center text-sm md:text-md text-center text-white font-thin'>
-          <p>To book a private party, benefit, or gig it is best to reach me by my email,{' '}
+          <p>
+            To book a private party, benefit, or gig it is best to reach me by
+            my email,{' '}
             <a className='underline' href={`mailto:${email}`}>
               {email}
             </a>

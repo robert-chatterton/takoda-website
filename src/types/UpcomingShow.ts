@@ -10,7 +10,7 @@ export const oronoBrewingCompany = {
   url: 'https://maps.app.goo.gl/NJzqocr9J3DXrVcJA',
   format: 'Orono Brewing Company',
   location: 'Orono, ME',
-}
+};
 
 export const fogtownBrewingCompany = {
   url: 'https://maps.app.goo.gl/EL7cHibCbQ3sfmqA7',
@@ -39,5 +39,11 @@ export const ivyManor = {
 export const annex = {
   url: 'https://maps.app.goo.gl/HMerPCYEZPUQcyDC7',
   format: 'The Annex',
+  location: 'Bar Harbor, ME',
+};
+
+export const exploreAcadiaCottages = {
+  url: 'https://maps.app.goo.gl/wbA2cXy6ZfCpNVLCA',
+  format: 'Explore Acadia Cottages',
   location: 'Bar Harbor, ME',
 };
