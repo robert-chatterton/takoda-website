@@ -21,7 +21,7 @@ export function UpcomingShowsByVenue({
       records.push({ format, shows });
     });
 
-    return records.sort((a, b) => a.shows.length - b.shows.length);
+    return records.sort((a, b) => b.shows.length - a.shows.length);
   }, [shows]);
 
   return (

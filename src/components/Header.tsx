@@ -2,9 +2,11 @@ import { useMemo, useState } from 'react';
 import { useWindowDimensions } from '../hooks/useWindowDimensions';
 import { IoMdClose, IoMdMenu, IoMdMail } from 'react-icons/io';
 import { MdOutlineSchedule } from 'react-icons/md';
-import { FaYoutube, FaInstagram } from 'react-icons/fa';
+import { FaYoutube, FaInstagram, FaFacebook } from 'react-icons/fa';
 import {
   email,
+  facebook,
+  facebookHandle,
   instagram,
   instagramHandle,
   youtube,
@@ -42,6 +44,14 @@ export default function Header() {
             <div className='flex flex-row items-center gap-2'>
               <FaInstagram color={width >= 768 ? '#000' : '#fff'} size={28} />
               {width < 768 && <p>{instagramHandle}</p>}
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href={facebook}>
+            <div className='flex flex-row items-center gap-2'>
+              <FaFacebook color={width >= 768 ? '#000' : '#fff'} size={28} />
+              {width < 768 && <p>{facebookHandle}</p>}
             </div>
           </a>
         </li>

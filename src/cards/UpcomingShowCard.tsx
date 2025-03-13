@@ -48,6 +48,13 @@ export default function UpcomingShowCard() {
       subtitle: "Takoda's Birthday Bash! 6PM - 8PM",
     },
     {
+      url: 'https://maps.app.goo.gl/nabWPNGqSZnWSTwz9',
+      format: 'The Studio Portland',
+      location: 'Portland, ME',
+      date: '04.23.25',
+      subtitle: 'Doors 6PM, Show 7PM',
+    },
+    {
       ...oronoBrewingCompany,
       date: '05.02.25',
       subtitle: '6PM - 9PM',
@@ -241,6 +248,13 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '08.20.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      url: 'https://maps.app.goo.gl/QyDa7oa9KFpY9Ly76',
+      format: 'The Grand Waterfront Concert Series at Harbor Park',
+      location: 'Ellsworth, ME',
+      date: '08.22.25',
+      subtitle: '6PM - 7PM',
     },
     {
       ...annex,

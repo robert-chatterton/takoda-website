@@ -6,4 +6,8 @@ export const youtubeEmbedLink =
 export const instagram = 'https://www.instagram.com/takodadionne/';
 export const instagramHandle = '@takodadionne';
 
+export const facebook =
+  'https://www.facebook.com/profile.php?id=61573557910394';
+export const facebookHandle = 'Takoda Dionne';
+
 export const email = 'takodadionne@gmail.com';
