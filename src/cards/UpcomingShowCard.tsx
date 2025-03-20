@@ -155,6 +155,13 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      url: 'https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/',
+      format: 'Black Moon Public House',
+      location: 'Ellsworth, ME',
+      date: '06.27.25',
+      subtitle: '6PM - 9PM',
+    },
+    {
       ...annex,
       date: '07.02.25',
       subtitle: '5PM - 7:30PM',
@@ -260,6 +267,13 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '08.27.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      url: 'https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/',
+      format: 'Black Moon Public House',
+      location: 'Ellsworth, ME',
+      date: '08.30.25',
+      subtitle: '6PM - 9PM',
     },
     {
       ...travelinLobster,
