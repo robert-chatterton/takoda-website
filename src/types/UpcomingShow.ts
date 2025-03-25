@@ -4,6 +4,7 @@ export interface UpcomingShowProps {
   location: string;
   date: string;
   subtitle: string;
+  bonusText?: string;
 }
 
 export const oronoBrewingCompany = {

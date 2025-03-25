@@ -33,8 +33,8 @@ export function UpcomingShowsByVenue({
       <ul className='flex flex-col text-xs md:text-sm divide-y gap-1'>
         {venueRecords.map(({ format, shows }, idx) => (
           <li key={idx} className='flex flex-row justify-between'>
-            <div className='flex flex-col items-start mt-1'>
-              <a href={shows[0]?.url} className='underline truncate'>
+            <div className='flex flex-col items-start mt-1 w-[200px] md:w-auto truncate'>
+              <a href={shows[0]?.url} className='underline truncate w-full'>
                 {format}
               </a>
               <p className='text-xs font-thin'>{shows[0]?.location}</p>

@@ -45,7 +45,8 @@ export default function UpcomingShowCard() {
       format: 'Black Moon Public House',
       location: 'Ellsworth, ME',
       date: '04.11.25',
-      subtitle: "Takoda's Birthday Bash! 6PM - 8PM",
+      subtitle: '6PM - 8PM',
+      bonusText: "Takoda's Birthday Bash!",
     },
     {
       url: 'https://maps.app.goo.gl/nabWPNGqSZnWSTwz9',
