@@ -48,3 +48,9 @@ export const exploreAcadiaCottages = {
   format: 'Explore Acadia Cottages',
   location: 'Bar Harbor, ME',
 };
+
+export const nocturnemDraftHaus = {
+  url: 'https://maps.app.goo.gl/YcrL3Ne7AduKrChP6',
+  format: 'Nocturnem Draft Haus',
+  location: 'Bangor, ME',
+};

@@ -5,6 +5,7 @@ import {
   exploreAcadiaCottages,
   fogtownBrewingCompany,
   ivyManor,
+  nocturnemDraftHaus,
   norEaster,
   oronoBrewingCompany,
   travelinLobster,
@@ -131,6 +132,11 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...nocturnemDraftHaus,
+      date: '06.14.25',
+      subtitle: '7PM - 9PM',
+    },
+    {
       ...exploreAcadiaCottages,
       date: '06.17.25',
       subtitle: '4:30PM - 7PM',
@@ -231,6 +237,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '08.06.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...nocturnemDraftHaus,
+      date: '08.08.25',
+      subtitle: '7PM - 9PM',
     },
     {
       ...annex,
@@ -335,6 +346,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '10.15.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...nocturnemDraftHaus,
+      date: '12.20.25',
+      subtitle: '7PM - 9PM',
     },
   ];
 
