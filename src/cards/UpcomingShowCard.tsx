@@ -147,6 +147,13 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      url: 'https://maps.app.goo.gl/KidB63rPYS8hxinL9',
+      format: 'The Thirsty Pig',
+      location: 'Portland, ME',
+      date: '06.19.25',
+      subtitle: '5PM - 8PM',
+    },
+    {
       ...norEaster,
       date: '06.21.25',
       subtitle: '7PM - 10PM',
