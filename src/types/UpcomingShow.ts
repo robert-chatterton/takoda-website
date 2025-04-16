@@ -54,3 +54,9 @@ export const nocturnemDraftHaus = {
   format: 'Nocturnem Draft Haus',
   location: 'Bangor, ME',
 };
+
+export const patsPizza = {
+  url: 'https://maps.app.goo.gl/tGU3Vf2KVVRsS4BU9',
+  format: "Pat's Pizza",
+  location: 'Bar Harbor, ME',
+};

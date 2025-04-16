@@ -8,6 +8,7 @@ import {
   nocturnemDraftHaus,
   norEaster,
   oronoBrewingCompany,
+  patsPizza,
   travelinLobster,
   UpcomingShowProps,
 } from '../types/UpcomingShow';
@@ -87,6 +88,11 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...patsPizza,
+      date: '05.23.25',
+      subtitle: '6PM - 8PM',
+    },
+    {
       ...ivyManor,
       date: '05.25.25',
       subtitle: '2PM - 5PM',
@@ -115,6 +121,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '06.04.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...patsPizza,
+      date: '06.06.25',
+      subtitle: '6PM - 8PM',
     },
     {
       ...ivyManor,
@@ -194,6 +205,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '07.09.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...patsPizza,
+      date: '07.11.25',
+      subtitle: '6PM - 8PM',
     },
     {
       ...exploreAcadiaCottages,
@@ -288,6 +304,11 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...patsPizza,
+      date: '08.29.25',
+      subtitle: '6PM - 8PM',
+    },
+    {
       url: 'https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/',
       format: 'Black Moon Public House',
       location: 'Ellsworth, ME',
@@ -308,6 +329,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '09.10.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...patsPizza,
+      date: '09.12.25',
+      subtitle: '6PM - 8PM',
     },
     {
       ...norEaster,
@@ -340,6 +366,11 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...patsPizza,
+      date: '10.03.25',
+      subtitle: '6PM - 8PM',
+    },
+    {
       ...annex,
       date: '10.08.25',
       subtitle: '5PM - 7:30PM',
@@ -353,6 +384,16 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '10.15.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...patsPizza,
+      date: '11.07.25',
+      subtitle: '6PM - 8PM',
+    },
+    {
+      ...patsPizza,
+      date: '12.05.25',
+      subtitle: '6PM - 8PM',
     },
     {
       ...nocturnemDraftHaus,

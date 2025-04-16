@@ -11,3 +11,6 @@ export const facebook =
 export const facebookHandle = 'Takoda Dionne';
 
 export const email = 'takodadionne@gmail.com';
+
+export const linktree = 'https://linktr.ee/takodadionne';
+export const mainSong = 'https://tr.ee/e83ONnUu3l';

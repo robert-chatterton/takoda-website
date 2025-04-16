@@ -1,5 +1,5 @@
 import Card from '../components/Card';
-import { youtube, youtubeEmbedLink } from '../constants/links';
+import { mainSong, youtube, youtubeEmbedLink } from '../constants/links';
 
 export default function FeaturedCard() {
   return (
@@ -13,8 +13,12 @@ export default function FeaturedCard() {
       />
       <p className='font-thin mt-3'>
         Check out more of my songs on{' '}
-        <a className='underline' href={youtube}>
+        <a className='underline' href={youtube} target='_blank' rel="noreferrer">
           my YouTube channel
+        </a>
+        {' '}or find me on your{' '}
+        <a className='underline' href={mainSong} target='_blank' rel="noreferrer">
+          favorite streaming service
         </a>
         !
       </p>
