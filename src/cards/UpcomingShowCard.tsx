@@ -143,6 +143,13 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      url: 'https://maps.app.goo.gl/trDYXdvTgMirYAdT8',
+      format: 'The Pickled Wrinkle',
+      location: 'Birch Harbor, ME',
+      date: '06.13.25',
+      subtitle: '6PM - 8PM',
+    },
+    {
       ...nocturnemDraftHaus,
       date: '06.14.25',
       subtitle: '7PM - 9PM',
