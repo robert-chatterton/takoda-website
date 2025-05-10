@@ -218,6 +218,11 @@ export default function UpcomingShowCard() {
     },
     {
       ...annex,
+      date: '06.30.25',
+      subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...annex,
       date: '07.02.25',
       subtitle: '5PM - 7:30PM',
     },
@@ -285,6 +290,11 @@ export default function UpcomingShowCard() {
       ...ivyManor,
       date: '07.27.25',
       subtitle: '2PM - 5PM',
+    },
+    {
+      ...annex,
+      date: '07.28.25',
+      subtitle: '5PM - 7:30PM',
     },
     {
       ...annex,
@@ -362,6 +372,11 @@ export default function UpcomingShowCard() {
       ...ivyManor,
       date: '08.23.25',
       subtitle: '2PM - 5PM',
+    },
+    {
+      ...annex,
+      date: '08.25.25',
+      subtitle: '5PM - 7:30PM',
     },
     {
       ...annex,
@@ -464,6 +479,11 @@ export default function UpcomingShowCard() {
       ...ivyManor,
       date: '10.04.25',
       subtitle: '2PM - 5PM',
+    },
+    {
+      ...annex,
+      date: '10.06.25',
+      subtitle: '5PM - 7:30PM',
     },
     {
       ...annex,
