@@ -113,6 +113,14 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 8PM',
     },
     {
+      url: 'https://maps.app.goo.gl/zJ3wN8ev8ntyn7gQ6',
+      format: 'Frost Farms',
+      location: 'Bar Harbor, ME',
+      date: '05.31.25',
+      subtitle: '11AM - 2PM',
+      bonusText: '10th Anniversary Celebration!',
+    },
+    {
       ...ivyManor,
       date: '06.01.25',
       subtitle: '2PM - 5PM',
@@ -155,6 +163,11 @@ export default function UpcomingShowCard() {
       subtitle: '7PM - 9PM',
     },
     {
+      ...ivyManor,
+      date: '06.15.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...exploreAcadiaCottages,
       date: '06.17.25',
       subtitle: '4:30PM - 7PM',
@@ -177,6 +190,11 @@ export default function UpcomingShowCard() {
       subtitle: '7PM - 10PM',
     },
     {
+      ...ivyManor,
+      date: '06.22.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...travelinLobster,
       date: '06.23.25',
       subtitle: '5PM - 7PM',
@@ -192,6 +210,11 @@ export default function UpcomingShowCard() {
       location: 'Ellsworth, ME',
       date: '06.27.25',
       subtitle: '6PM - 9PM',
+    },
+    {
+      ...ivyManor,
+      date: '06.29.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...annex,
@@ -219,6 +242,11 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 8PM',
     },
     {
+      ...ivyManor,
+      date: '07.12.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...exploreAcadiaCottages,
       date: '07.15.25',
       subtitle: '4:30PM - 7PM',
@@ -232,6 +260,11 @@ export default function UpcomingShowCard() {
       ...norEaster,
       date: '07.19.25',
       subtitle: '7PM - 10PM',
+    },
+    {
+      ...ivyManor,
+      date: '07.20.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...travelinLobster,
@@ -249,6 +282,11 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 9PM',
     },
     {
+      ...ivyManor,
+      date: '07.27.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...annex,
       date: '07.30.25',
       subtitle: '5PM - 7:30PM',
@@ -257,6 +295,11 @@ export default function UpcomingShowCard() {
       ...fogtownBrewingCompany,
       date: '08.01.25',
       subtitle: '6PM - 8PM',
+    },
+    {
+      ...ivyManor,
+      date: '08.02.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...travelinLobster,
@@ -274,9 +317,19 @@ export default function UpcomingShowCard() {
       subtitle: '7PM - 9PM',
     },
     {
+      ...ivyManor,
+      date: '08.09.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...annex,
       date: '08.13.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...ivyManor,
+      date: '08.15.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...norEaster,
@@ -306,6 +359,11 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 7PM',
     },
     {
+      ...ivyManor,
+      date: '08.23.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...annex,
       date: '08.27.25',
       subtitle: '5PM - 7:30PM',
@@ -323,6 +381,11 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 9PM',
     },
     {
+      ...ivyManor,
+      date: '08.31.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...travelinLobster,
       date: '09.01.25',
       subtitle: '5PM - 7PM',
@@ -331,6 +394,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '09.03.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...ivyManor,
+      date: '09.06.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...annex,
@@ -348,6 +416,11 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 9PM',
     },
     {
+      ...ivyManor,
+      date: '09.14.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...exploreAcadiaCottages,
       date: '09.16.25',
       subtitle: '4:30PM - 7PM',
@@ -356,6 +429,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '09.17.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...ivyManor,
+      date: '09.22.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...annex,
@@ -368,6 +446,11 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 8PM',
     },
     {
+      ...ivyManor,
+      date: '09.28.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...annex,
       date: '10.01.25',
       subtitle: '5PM - 7:30PM',
@@ -376,6 +459,11 @@ export default function UpcomingShowCard() {
       ...patsPizza,
       date: '10.03.25',
       subtitle: '6PM - 8PM',
+    },
+    {
+      ...ivyManor,
+      date: '10.04.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...annex,
@@ -388,9 +476,25 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 9PM',
     },
     {
+      ...ivyManor,
+      date: '10.12.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...annex,
       date: '10.15.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...ivyManor,
+      date: '10.19.25',
+      subtitle: '2PM - 5PM',
+      bonusText: 'Music Harbor Festival',
+    },
+    {
+      ...ivyManor,
+      date: '10.26.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...patsPizza,
