@@ -113,14 +113,6 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 8PM',
     },
     {
-      url: 'https://maps.app.goo.gl/zJ3wN8ev8ntyn7gQ6',
-      format: 'Frost Farms',
-      location: 'Bar Harbor, ME',
-      date: '05.31.25',
-      subtitle: '11AM - 2PM',
-      bonusText: '10th Anniversary Celebration!',
-    },
-    {
       ...ivyManor,
       date: '06.01.25',
       subtitle: '2PM - 5PM',
@@ -134,6 +126,14 @@ export default function UpcomingShowCard() {
       ...patsPizza,
       date: '06.06.25',
       subtitle: '6PM - 8PM',
+    },
+    {
+      url: 'https://maps.app.goo.gl/zJ3wN8ev8ntyn7gQ6',
+      format: 'Frost Farms',
+      location: 'Bar Harbor, ME',
+      date: '06.07.25',
+      subtitle: '11AM - 2PM',
+      bonusText: '10th Anniversary Celebration!',
     },
     {
       ...ivyManor,
