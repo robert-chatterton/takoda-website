@@ -244,7 +244,7 @@ export default function UpcomingShowCard() {
     {
       ...patsPizza,
       date: '07.11.25',
-      subtitle: '6PM - 8PM',
+      subtitle: '7PM - 9PM',
     },
     {
       ...ivyManor,
@@ -328,7 +328,7 @@ export default function UpcomingShowCard() {
     },
     {
       ...ivyManor,
-      date: '08.09.25',
+      date: '08.10.25',
       subtitle: '2PM - 5PM',
     },
     {
@@ -386,7 +386,7 @@ export default function UpcomingShowCard() {
     {
       ...patsPizza,
       date: '08.29.25',
-      subtitle: '6PM - 8PM',
+      subtitle: '7PM - 9PM',
     },
     {
       url: 'https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/',
