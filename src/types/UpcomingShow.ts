@@ -60,3 +60,15 @@ export const patsPizza = {
   format: "Pat's Pizza",
   location: 'Bar Harbor, ME',
 };
+
+export const hornRunBrewing = {
+  url: 'https://maps.app.goo.gl/uEYzu2UY6SPznXg89',
+  format: 'Horn Run Brewing',
+  location: 'Eastport, ME',
+};
+
+export const pickledWrinkle = {
+  url: 'https://maps.app.goo.gl/trDYXdvTgMirYAdT8',
+  format: 'The Pickled Wrinkle',
+  location: 'Birch Harbor, ME',
+};

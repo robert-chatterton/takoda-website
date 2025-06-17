@@ -4,11 +4,13 @@ import {
   annex,
   exploreAcadiaCottages,
   fogtownBrewingCompany,
+  hornRunBrewing,
   ivyManor,
   nocturnemDraftHaus,
   norEaster,
   oronoBrewingCompany,
   patsPizza,
+  pickledWrinkle,
   travelinLobster,
   UpcomingShowProps,
 } from '../types/UpcomingShow';
@@ -151,9 +153,7 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
-      url: 'https://maps.app.goo.gl/trDYXdvTgMirYAdT8',
-      format: 'The Pickled Wrinkle',
-      location: 'Birch Harbor, ME',
+      ...pickledWrinkle,
       date: '06.13.25',
       subtitle: '6PM - 8PM',
     },
@@ -242,13 +242,18 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...hornRunBrewing,
+      date: '07.10.25',
+      subtitle: '4PM - 7PM',
+    },
+    {
       ...patsPizza,
       date: '07.11.25',
       subtitle: '7PM - 9PM',
     },
     {
       ...ivyManor,
-      date: '07.12.25',
+      date: '07.13.25',
       subtitle: '2PM - 5PM',
     },
     {
@@ -260,6 +265,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '07.16.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...hornRunBrewing,
+      date: '07.17.25',
+      subtitle: '4PM - 7PM',
     },
     {
       ...norEaster,
@@ -282,6 +292,11 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...hornRunBrewing,
+      date: '07.24.25',
+      subtitle: '4PM - 7PM',
+    },
+    {
       ...oronoBrewingCompany,
       date: '07.25.25',
       subtitle: '6PM - 9PM',
@@ -302,13 +317,18 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...hornRunBrewing,
+      date: '07.31.25',
+      subtitle: '4PM - 7PM',
+    },
+    {
       ...fogtownBrewingCompany,
       date: '08.01.25',
       subtitle: '6PM - 8PM',
     },
     {
       ...ivyManor,
-      date: '08.02.25',
+      date: '08.03.25',
       subtitle: '2PM - 5PM',
     },
     {
@@ -411,8 +431,13 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...pickledWrinkle,
+      date: '09.05.25',
+      subtitle: '6PM - 8PM',
+    },
+    {
       ...ivyManor,
-      date: '09.06.25',
+      date: '09.07.25',
       subtitle: '2PM - 5PM',
     },
     {
@@ -477,7 +502,7 @@ export default function UpcomingShowCard() {
     },
     {
       ...ivyManor,
-      date: '10.04.25',
+      date: '10.05.25',
       subtitle: '2PM - 5PM',
     },
     {
@@ -489,6 +514,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '10.08.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...pickledWrinkle,
+      date: '10.10.25',
+      subtitle: '6PM - 8PM',
     },
     {
       ...norEaster,

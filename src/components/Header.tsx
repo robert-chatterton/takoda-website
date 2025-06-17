@@ -3,9 +3,7 @@ import { useWindowDimensions } from '../hooks/useWindowDimensions';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { PiLinktreeLogo } from 'react-icons/pi';
 import { MdOutlineSchedule } from 'react-icons/md';
-import {
-  linktree
-} from '../constants/links';
+import { linktree } from '../constants/links';
 
 export default function Header() {
   const { width } = useWindowDimensions();
@@ -60,7 +58,10 @@ export default function Header() {
         <li>
           <a href={linktree}>
             <div className='flex flex-row items-center gap-1 hover:underline'>
-              <PiLinktreeLogo color={width >= 768 ? '#000' : '#fff'} size={28} />
+              <PiLinktreeLogo
+                color={width >= 768 ? '#000' : '#fff'}
+                size={28}
+              />
               <p className='text-nowrap'>My Socials</p>
             </div>
           </a>
