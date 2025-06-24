@@ -205,11 +205,16 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...ivyManor,
+      date: '06.26.25',
+      subtitle: '11:30AM - 2PM',
+    },
+    {
       url: 'https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/',
       format: 'Black Moon Public House',
       location: 'Ellsworth, ME',
       date: '06.27.25',
-      subtitle: '6PM - 9PM',
+      subtitle: '7PM - 9PM',
     },
     {
       ...ivyManor,
@@ -413,7 +418,7 @@ export default function UpcomingShowCard() {
       format: 'Black Moon Public House',
       location: 'Ellsworth, ME',
       date: '08.30.25',
-      subtitle: '6PM - 9PM',
+      subtitle: '7PM - 9PM',
     },
     {
       ...ivyManor,
