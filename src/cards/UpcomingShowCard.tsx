@@ -2,6 +2,7 @@
 import { Switch } from '@mui/material';
 import {
   annex,
+  blackMoonPublicHouse,
   exploreAcadiaCottages,
   fogtownBrewingCompany,
   hornRunBrewing,
@@ -9,6 +10,7 @@ import {
   nocturnemDraftHaus,
   norEaster,
   oronoBrewingCompany,
+  paddysIrishPub,
   patsPizza,
   pickledWrinkle,
   travelinLobster,
@@ -45,9 +47,7 @@ export default function UpcomingShowCard() {
       subtitle: '4PM - 6PM',
     },
     {
-      url: 'https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/',
-      format: 'Black Moon Public House',
-      location: 'Ellsworth, ME',
+      ...blackMoonPublicHouse,
       date: '04.11.25',
       subtitle: '6PM - 8PM',
       bonusText: "Takoda's Birthday Bash!",
@@ -210,9 +210,7 @@ export default function UpcomingShowCard() {
       subtitle: '11:30AM - 2PM',
     },
     {
-      url: 'https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/',
-      format: 'Black Moon Public House',
-      location: 'Ellsworth, ME',
+      ...blackMoonPublicHouse,
       date: '06.27.25',
       subtitle: '7PM - 9PM',
     },
@@ -235,6 +233,11 @@ export default function UpcomingShowCard() {
       ...ivyManor,
       date: '07.04.25',
       subtitle: '11AM - 2PM',
+    },
+    {
+      ...paddysIrishPub,
+      date: '07.07.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...travelinLobster,
@@ -414,9 +417,7 @@ export default function UpcomingShowCard() {
       subtitle: '7PM - 9PM',
     },
     {
-      url: 'https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/',
-      format: 'Black Moon Public House',
-      location: 'Ellsworth, ME',
+      ...blackMoonPublicHouse,
       date: '08.30.25',
       subtitle: '7PM - 9PM',
     },
@@ -547,6 +548,11 @@ export default function UpcomingShowCard() {
       bonusText: 'Music Harbor Festival',
     },
     {
+      ...blackMoonPublicHouse,
+      date: '10.24.25',
+      subtitle: '7PM - 9PM',
+    },
+    {
       ...ivyManor,
       date: '10.26.25',
       subtitle: '2PM - 5PM',
@@ -557,8 +563,18 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 8PM',
     },
     {
+      ...blackMoonPublicHouse,
+      date: '11.15.25',
+      subtitle: '6PM - 8PM',
+    },
+    {
       ...patsPizza,
       date: '12.05.25',
+      subtitle: '6PM - 8PM',
+    },
+    {
+      ...blackMoonPublicHouse,
+      date: '12.06.25',
       subtitle: '6PM - 8PM',
     },
     {

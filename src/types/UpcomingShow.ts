@@ -72,3 +72,15 @@ export const pickledWrinkle = {
   format: 'The Pickled Wrinkle',
   location: 'Birch Harbor, ME',
 };
+
+export const paddysIrishPub = {
+  url: 'https://maps.app.goo.gl/mfyNp5yhhhaPk1oh7',
+  format: "Paddy's Irish Pub",
+  location: 'Bar Harbor, ME',
+};
+
+export const blackMoonPublicHouse = {
+  url: 'https://www.facebook.com/p/Black-Moon-Public-House-61557620630623/',
+  format: 'Black Moon Public House',
+  location: 'Ellsworth, ME',
+};
