@@ -350,6 +350,11 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...paddysIrishPub,
+      date: '08.07.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...nocturnemDraftHaus,
       date: '08.08.25',
       subtitle: '7PM - 9PM',
@@ -363,6 +368,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '08.13.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...paddysIrishPub,
+      date: '08.14.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...ivyManor,
@@ -403,13 +413,13 @@ export default function UpcomingShowCard() {
     },
     {
       ...annex,
-      date: '08.25.25',
+      date: '08.27.25',
       subtitle: '5PM - 7:30PM',
     },
     {
-      ...annex,
-      date: '08.27.25',
-      subtitle: '5PM - 7:30PM',
+      ...paddysIrishPub,
+      date: '08.28.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...patsPizza,
@@ -437,6 +447,11 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...paddysIrishPub,
+      date: '09.04.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...pickledWrinkle,
       date: '09.05.25',
       subtitle: '6PM - 8PM',
@@ -450,6 +465,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '09.10.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...paddysIrishPub,
+      date: '09.11.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...patsPizza,
@@ -487,6 +507,11 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...paddysIrishPub,
+      date: '09.25.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...oronoBrewingCompany,
       date: '09.26.25',
       subtitle: '6PM - 8PM',
@@ -502,6 +527,11 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...paddysIrishPub,
+      date: '10.02.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...patsPizza,
       date: '10.03.25',
       subtitle: '6PM - 8PM',
@@ -513,13 +543,13 @@ export default function UpcomingShowCard() {
     },
     {
       ...annex,
-      date: '10.06.25',
+      date: '10.08.25',
       subtitle: '5PM - 7:30PM',
     },
     {
-      ...annex,
-      date: '10.08.25',
-      subtitle: '5PM - 7:30PM',
+      ...paddysIrishPub,
+      date: '10.09.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...pickledWrinkle,
@@ -542,10 +572,20 @@ export default function UpcomingShowCard() {
       subtitle: '5PM - 7:30PM',
     },
     {
+      ...paddysIrishPub,
+      date: '10.16.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...ivyManor,
       date: '10.19.25',
       subtitle: '2PM - 5PM',
       bonusText: 'Music Harbor Festival',
+    },
+    {
+      ...paddysIrishPub,
+      date: '10.23.25',
+      subtitle: '2PM - 5PM',
     },
     {
       ...blackMoonPublicHouse,
@@ -555,6 +595,11 @@ export default function UpcomingShowCard() {
     {
       ...ivyManor,
       date: '10.26.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
+      ...paddysIrishPub,
+      date: '10.30.25',
       subtitle: '2PM - 5PM',
     },
     {
