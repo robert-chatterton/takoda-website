@@ -280,6 +280,11 @@ export default function UpcomingShowCard() {
       subtitle: '4PM - 7PM',
     },
     {
+      ...ivyManor,
+      date: '07.18.25',
+      subtitle: '2:30PM - 5PM',
+    },
+    {
       ...norEaster,
       date: '07.19.25',
       subtitle: '7PM - 10PM',
@@ -575,6 +580,11 @@ export default function UpcomingShowCard() {
       ...paddysIrishPub,
       date: '10.16.25',
       subtitle: '2PM - 5PM',
+    },
+    {
+      ...paddysIrishPub,
+      date: '10.18.25',
+      subtitle: '12PM - 3PM',
     },
     {
       ...ivyManor,
