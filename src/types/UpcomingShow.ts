@@ -84,3 +84,8 @@ export const blackMoonPublicHouse = {
   format: 'Black Moon Public House',
   location: 'Ellsworth, ME',
 };
+
+export const privateEvent = {
+  url: '#shows',
+  format: 'Private Event',
+};

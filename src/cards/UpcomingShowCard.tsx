@@ -13,6 +13,7 @@ import {
   paddysIrishPub,
   patsPizza,
   pickledWrinkle,
+  privateEvent,
   travelinLobster,
   UpcomingShowProps,
 } from '../types/UpcomingShow';
@@ -340,6 +341,13 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 8PM',
     },
     {
+      ...privateEvent,
+      location: 'Alexander, ME',
+      date: '08.02.25',
+      bonusText: '40th High School Reunion',
+      subtitle: '3:30PM - 6:30PM',
+    },
+    {
       ...ivyManor,
       date: '08.03.25',
       subtitle: '2PM - 5PM',
@@ -500,6 +508,12 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '09.17.25',
       subtitle: '5PM - 7:30PM',
+    },
+    {
+      ...privateEvent,
+      location: 'Boothbay Harbor, ME',
+      date: '09.19.25',
+      subtitle: '6:30PM - 8PM',
     },
     {
       ...ivyManor,
