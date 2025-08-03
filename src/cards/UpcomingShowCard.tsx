@@ -378,6 +378,11 @@ export default function UpcomingShowCard() {
       subtitle: '2PM - 5PM',
     },
     {
+      ...ivyManor,
+      date: '08.12.25',
+      subtitle: '2:30PM - 5PM',
+    },
+    {
       ...annex,
       date: '08.13.25',
       subtitle: '5PM - 7:30PM',
@@ -435,11 +440,6 @@ export default function UpcomingShowCard() {
       subtitle: '2PM - 5PM',
     },
     {
-      ...patsPizza,
-      date: '08.29.25',
-      subtitle: '7PM - 9PM',
-    },
-    {
       ...blackMoonPublicHouse,
       date: '08.30.25',
       subtitle: '7PM - 9PM',
@@ -483,11 +483,6 @@ export default function UpcomingShowCard() {
       ...paddysIrishPub,
       date: '09.11.25',
       subtitle: '2PM - 5PM',
-    },
-    {
-      ...patsPizza,
-      date: '09.12.25',
-      subtitle: '6PM - 8PM',
     },
     {
       ...norEaster,
@@ -536,6 +531,11 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 8PM',
     },
     {
+      ...fogtownBrewingCompany,
+      date: '09.27.25',
+      subtitle: '6PM - 8PM',
+    },
+    {
       ...ivyManor,
       date: '09.28.25',
       subtitle: '2PM - 5PM',
@@ -549,11 +549,6 @@ export default function UpcomingShowCard() {
       ...paddysIrishPub,
       date: '10.02.25',
       subtitle: '2PM - 5PM',
-    },
-    {
-      ...patsPizza,
-      date: '10.03.25',
-      subtitle: '6PM - 8PM',
     },
     {
       ...ivyManor,
@@ -627,9 +622,14 @@ export default function UpcomingShowCard() {
       subtitle: '2PM - 5PM',
     },
     {
-      ...patsPizza,
-      date: '11.07.25',
+      ...fogtownBrewingCompany,
+      date: '10.31.25',
       subtitle: '6PM - 8PM',
+    },
+    {
+      ...oronoBrewingCompany,
+      date: '11.07.25',
+      subtitle: '6PM - 9PM',
     },
     {
       ...blackMoonPublicHouse,
@@ -637,13 +637,13 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 8PM',
     },
     {
-      ...patsPizza,
-      date: '12.05.25',
+      ...blackMoonPublicHouse,
+      date: '12.06.25',
       subtitle: '6PM - 8PM',
     },
     {
-      ...blackMoonPublicHouse,
-      date: '12.06.25',
+      ...fogtownBrewingCompany,
+      date: '12.19.25',
       subtitle: '6PM - 8PM',
     },
     {
