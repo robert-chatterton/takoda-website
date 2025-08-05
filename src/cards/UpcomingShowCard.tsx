@@ -379,6 +379,11 @@ export default function UpcomingShowCard() {
     },
     {
       ...ivyManor,
+      date: '08.11.25',
+      subtitle: '2:30PM - 5PM',
+    },
+    {
+      ...ivyManor,
       date: '08.12.25',
       subtitle: '2:30PM - 5PM',
     },
@@ -393,14 +398,14 @@ export default function UpcomingShowCard() {
       subtitle: '2PM - 5PM',
     },
     {
-      ...ivyManor,
-      date: '08.15.25',
-      subtitle: '2PM - 5PM',
-    },
-    {
       ...norEaster,
       date: '08.16.25',
       subtitle: '7PM - 10PM',
+    },
+    {
+      ...ivyManor,
+      date: '08.17.25',
+      subtitle: '12PM - 2:30PM',
     },
     {
       ...travelinLobster,
@@ -428,6 +433,14 @@ export default function UpcomingShowCard() {
       ...ivyManor,
       date: '08.23.25',
       subtitle: '2PM - 5PM',
+    },
+    {
+      url: 'https://maps.app.goo.gl/QyDa7oa9KFpY9Ly76',
+      format: 'The Grand Waterfront Concert Series at Harbor Park',
+      location: 'Ellsworth, ME',
+      date: '08.24.25',
+      subtitle: '4PM',
+      bonusText: 'Rain date',
     },
     {
       ...annex,
@@ -470,6 +483,12 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 8PM',
     },
     {
+      ...privateEvent,
+      location: 'Alexander, ME',
+      date: '09.06.25',
+      subtitle: '4PM - 7PM',
+    },
+    {
       ...ivyManor,
       date: '09.07.25',
       subtitle: '2PM - 5PM',
@@ -488,6 +507,12 @@ export default function UpcomingShowCard() {
       ...norEaster,
       date: '09.13.25',
       subtitle: '6PM - 9PM',
+    },
+    {
+      ...privateEvent,
+      location: 'Northeast Harbor, ME',
+      date: '09.13.25',
+      subtitle: '9PM - 11PM',
     },
     {
       ...ivyManor,
@@ -594,6 +619,7 @@ export default function UpcomingShowCard() {
       ...paddysIrishPub,
       date: '10.18.25',
       subtitle: '12PM - 3PM',
+      bonusText: 'Music Harbor Festival',
     },
     {
       ...ivyManor,
@@ -625,6 +651,11 @@ export default function UpcomingShowCard() {
       ...fogtownBrewingCompany,
       date: '10.31.25',
       subtitle: '6PM - 8PM',
+    },
+    {
+      ...ivyManor,
+      date: '11.01.25',
+      subtitle: '2:30PM - 5PM',
     },
     {
       ...oronoBrewingCompany,
