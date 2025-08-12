@@ -695,7 +695,7 @@ export default function UpcomingShowCard() {
     },
     {
       ...oronoBrewingCompany,
-      date: '01.16.25',
+      date: '01.16.26',
       subtitle: '6PM - 9PM',
     },
   ];
