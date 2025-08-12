@@ -3,6 +3,7 @@ import { Switch } from '@mui/material';
 import {
   annex,
   blackMoonPublicHouse,
+  brickyard,
   exploreAcadiaCottages,
   fogtownBrewingCompany,
   hornRunBrewing,
@@ -484,7 +485,7 @@ export default function UpcomingShowCard() {
     },
     {
       ...privateEvent,
-      location: 'Alexander, ME',
+      location: 'Bailyville, ME',
       date: '09.06.25',
       subtitle: '4PM - 7PM',
     },
@@ -576,6 +577,11 @@ export default function UpcomingShowCard() {
       subtitle: '2PM - 5PM',
     },
     {
+      ...brickyard,
+      date: '10.04.25',
+      subtitle: '6PM - 8PM',
+    },
+    {
       ...ivyManor,
       date: '10.05.25',
       subtitle: '2PM - 5PM',
@@ -663,6 +669,11 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 9PM',
     },
     {
+      ...brickyard,
+      date: '11.08.25',
+      subtitle: '6PM - 8PM',
+    },
+    {
       ...blackMoonPublicHouse,
       date: '11.15.25',
       subtitle: '6PM - 8PM',
@@ -681,6 +692,11 @@ export default function UpcomingShowCard() {
       ...nocturnemDraftHaus,
       date: '12.20.25',
       subtitle: '7PM - 9PM',
+    },
+    {
+      ...oronoBrewingCompany,
+      date: '01.16.25',
+      subtitle: '6PM - 9PM',
     },
   ];
 

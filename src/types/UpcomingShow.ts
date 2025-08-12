@@ -89,3 +89,9 @@ export const privateEvent = {
   url: '#shows',
   format: 'Private Event',
 };
+
+export const brickyard = {
+  url: 'https://maps.app.goo.gl/cjRJ3Cyejztzu3iF7',
+  format: 'Brickyard Hollow Brewery',
+  location: 'Skowhegan, ME',
+};
