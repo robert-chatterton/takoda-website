@@ -432,17 +432,17 @@ export default function UpcomingShowCard() {
     },
     {
       ...ivyManor,
-      date: '08.23.25',
-      subtitle: '2PM - 5PM',
-    },
-    {
-      url: 'https://maps.app.goo.gl/QyDa7oa9KFpY9Ly76',
-      format: 'The Grand Waterfront Concert Series at Harbor Park',
-      location: 'Ellsworth, ME',
       date: '08.24.25',
-      subtitle: '4PM',
-      bonusText: 'Rain date',
+      subtitle: '2:30PM - 5PM',
     },
+    // {
+    //   url: 'https://maps.app.goo.gl/QyDa7oa9KFpY9Ly76',
+    //   format: 'The Grand Waterfront Concert Series at Harbor Park',
+    //   location: 'Ellsworth, ME',
+    //   date: '08.24.25',
+    //   subtitle: '4PM',
+    //   bonusText: 'Rain date',
+    // },
     {
       ...annex,
       date: '08.27.25',
