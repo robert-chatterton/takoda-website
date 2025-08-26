@@ -520,11 +520,11 @@ export default function UpcomingShowCard() {
       date: '09.14.25',
       subtitle: '2PM - 5PM',
     },
-    {
-      ...exploreAcadiaCottages,
-      date: '09.16.25',
-      subtitle: '4:30PM - 7PM',
-    },
+    // {
+    //   ...exploreAcadiaCottages,
+    //   date: '09.16.25',
+    //   subtitle: '4:30PM - 7PM',
+    // },
     {
       ...annex,
       date: '09.17.25',
