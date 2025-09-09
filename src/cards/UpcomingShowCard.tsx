@@ -520,11 +520,11 @@ export default function UpcomingShowCard() {
       date: '09.14.25',
       subtitle: '2PM - 5PM',
     },
-    // {
-    //   ...exploreAcadiaCottages,
-    //   date: '09.16.25',
-    //   subtitle: '4:30PM - 7PM',
-    // },
+    {
+      ...ivyManor,
+      date: '09.16.25',
+      subtitle: '2:30PM - 5PM',
+    },
     {
       ...annex,
       date: '09.17.25',
@@ -567,6 +567,11 @@ export default function UpcomingShowCard() {
       subtitle: '2PM - 5PM',
     },
     {
+      ...ivyManor,
+      date: '09.30.25',
+      subtitle: '2:30PM - 5PM',
+    },
+    {
       ...annex,
       date: '10.01.25',
       subtitle: '5PM - 7:30PM',
@@ -585,6 +590,11 @@ export default function UpcomingShowCard() {
       ...ivyManor,
       date: '10.05.25',
       subtitle: '2PM - 5PM',
+    },
+    {
+      ...ivyManor,
+      date: '10.06.25',
+      subtitle: '2:30PM - 5PM',
     },
     {
       ...annex,
@@ -607,9 +617,16 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 9PM',
     },
     {
-      ...ivyManor,
+      url: 'https://maps.app.goo.gl/Noj6w7qwvaRW1dmN9',
+      format: 'Shipyard Brew Haus - Sugarloaf',
+      location: 'Carrabassett Valley, ME',
       date: '10.12.25',
-      subtitle: '2PM - 5PM',
+      subtitle: '1PM - 4PM',
+    },
+    {
+      ...ivyManor,
+      date: '10.14.25',
+      subtitle: '2:30PM - 5PM',
     },
     {
       ...annex,
@@ -646,11 +663,6 @@ export default function UpcomingShowCard() {
     {
       ...ivyManor,
       date: '10.26.25',
-      subtitle: '2PM - 5PM',
-    },
-    {
-      ...paddysIrishPub,
-      date: '10.30.25',
       subtitle: '2PM - 5PM',
     },
     {
