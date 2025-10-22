@@ -662,7 +662,7 @@ export default function UpcomingShowCard() {
     },
     {
       ...ivyManor,
-      date: '10.26.25',
+      date: '10.25.25',
       subtitle: '2PM - 5PM',
     },
     {
@@ -696,8 +696,13 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 8PM',
     },
     {
+      ...pickledWrinkle,
+      date: '12.12.25',
+      subtitle: '6PM - 8PM',
+    },
+    {
       ...fogtownBrewingCompany,
-      date: '12.19.25',
+      date: '12.13.25',
       subtitle: '6PM - 8PM',
     },
     {
@@ -709,6 +714,11 @@ export default function UpcomingShowCard() {
       ...oronoBrewingCompany,
       date: '01.16.26',
       subtitle: '6PM - 9PM',
+    },
+    {
+      ...annex,
+      date: '02.14.26',
+      subtitle: '4PM - 5:30PM',
     },
   ];
 
