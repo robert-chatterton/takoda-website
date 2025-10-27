@@ -666,6 +666,11 @@ export default function UpcomingShowCard() {
       subtitle: '2PM - 5PM',
     },
     {
+      ...ivyManor,
+      date: '10.29.25',
+      subtitle: '2PM - 5PM',
+    },
+    {
       ...fogtownBrewingCompany,
       date: '10.31.25',
       subtitle: '6PM - 8PM',
@@ -711,9 +716,9 @@ export default function UpcomingShowCard() {
       subtitle: '7PM - 9PM',
     },
     {
-      ...oronoBrewingCompany,
-      date: '01.16.26',
-      subtitle: '6PM - 9PM',
+      ...hornRunBrewing,
+      date: '02.07.26',
+      subtitle: '5PM - 8PM',
     },
     {
       ...annex,
