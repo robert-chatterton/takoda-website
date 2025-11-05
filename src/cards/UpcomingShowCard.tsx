@@ -695,11 +695,11 @@ export default function UpcomingShowCard() {
       date: '11.15.25',
       subtitle: '6PM - 8PM',
     },
-    {
-      ...blackMoonPublicHouse,
-      date: '12.06.25',
-      subtitle: '6PM - 8PM',
-    },
+    // {
+    //   ...blackMoonPublicHouse,
+    //   date: '12.06.25',
+    //   subtitle: '6PM - 8PM',
+    // },
     {
       ...pickledWrinkle,
       date: '12.12.25',
