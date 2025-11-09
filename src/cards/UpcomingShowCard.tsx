@@ -693,7 +693,7 @@ export default function UpcomingShowCard() {
     {
       ...blackMoonPublicHouse,
       date: '11.15.25',
-      subtitle: '6PM - 8PM',
+      subtitle: '7PM - 9PM',
     },
     // {
     //   ...blackMoonPublicHouse,
