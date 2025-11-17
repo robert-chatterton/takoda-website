@@ -725,6 +725,16 @@ export default function UpcomingShowCard() {
       date: '02.14.26',
       subtitle: '4PM - 5:30PM',
     },
+    {
+      ...brickyard,
+      date: '03.21.26',
+      subtitle: '4PM - 7PM',
+    },
+    {
+      ...brickyard,
+      date: '04.04.26',
+      subtitle: '4PM - 7PM',
+    },
   ];
 
   return (
