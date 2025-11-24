@@ -90,8 +90,20 @@ export const privateEvent = {
   format: 'Private Event',
 };
 
-export const brickyard = {
+export const brickyardSkowhegan = {
   url: 'https://maps.app.goo.gl/cjRJ3Cyejztzu3iF7',
   format: 'Brickyard Hollow Brewery',
   location: 'Skowhegan, ME',
+};
+
+export const brickyardSugarloaf = {
+  url: 'https://maps.app.goo.gl/CXGvM1HCq8kokzfn6',
+  format: 'Brickyard Hollow Brewery',
+  location: 'Carrabasset Valley, ME',
+};
+
+export const shipyardBrewHaus = {
+  url: 'https://maps.app.goo.gl/Noj6w7qwvaRW1dmN9',
+  format: 'Shipyard Brew Haus - Sugarloaf',
+  location: 'Carrabassett Valley, ME',
 };

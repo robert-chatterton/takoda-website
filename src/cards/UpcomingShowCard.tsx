@@ -3,7 +3,8 @@ import { Switch } from '@mui/material';
 import {
   annex,
   blackMoonPublicHouse,
-  brickyard,
+  brickyardSkowhegan,
+  brickyardSugarloaf,
   exploreAcadiaCottages,
   fogtownBrewingCompany,
   hornRunBrewing,
@@ -15,6 +16,7 @@ import {
   patsPizza,
   pickledWrinkle,
   privateEvent,
+  shipyardBrewHaus,
   travelinLobster,
   UpcomingShowProps,
 } from '../types/UpcomingShow';
@@ -582,7 +584,7 @@ export default function UpcomingShowCard() {
       subtitle: '2PM - 5PM',
     },
     {
-      ...brickyard,
+      ...brickyardSkowhegan,
       date: '10.04.25',
       subtitle: '6PM - 8PM',
     },
@@ -617,9 +619,7 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 9PM',
     },
     {
-      url: 'https://maps.app.goo.gl/Noj6w7qwvaRW1dmN9',
-      format: 'Shipyard Brew Haus - Sugarloaf',
-      location: 'Carrabassett Valley, ME',
+      ...shipyardBrewHaus,
       date: '10.12.25',
       subtitle: '1PM - 4PM',
     },
@@ -686,7 +686,7 @@ export default function UpcomingShowCard() {
       subtitle: '6PM - 9PM',
     },
     {
-      ...brickyard,
+      ...brickyardSkowhegan,
       date: '11.08.25',
       subtitle: '6PM - 8PM',
     },
@@ -726,12 +726,17 @@ export default function UpcomingShowCard() {
       subtitle: '4PM - 5:30PM',
     },
     {
-      ...brickyard,
+      ...brickyardSugarloaf,
       date: '03.21.26',
       subtitle: '4PM - 7PM',
     },
     {
-      ...brickyard,
+      ...shipyardBrewHaus,
+      date: '03.22.26',
+      subtitle: '11AM - 2PM',
+    },
+    {
+      ...brickyardSugarloaf,
       date: '04.04.26',
       subtitle: '4PM - 7PM',
     },
