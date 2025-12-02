@@ -67,6 +67,12 @@ export const hornRunBrewing = {
   location: 'Eastport, ME',
 };
 
+export const hornRunBrewing2 = {
+  url: 'https://maps.app.goo.gl/LdNrcs2h9xK6nJiT6',
+  format: 'Horn Run Brewing',
+  location: 'Perry, ME',
+};
+
 export const pickledWrinkle = {
   url: 'https://maps.app.goo.gl/trDYXdvTgMirYAdT8',
   format: 'The Pickled Wrinkle',

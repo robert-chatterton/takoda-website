@@ -8,6 +8,7 @@ import {
   exploreAcadiaCottages,
   fogtownBrewingCompany,
   hornRunBrewing,
+  hornRunBrewing2,
   ivyManor,
   nocturnemDraftHaus,
   norEaster,
@@ -716,9 +717,19 @@ export default function UpcomingShowCard() {
       subtitle: '7PM - 9PM',
     },
     {
-      ...hornRunBrewing,
+      ...blackMoonPublicHouse,
+      date: '01.22.26',
+      subtitle: '6PM - 8PM',
+    },
+    {
+      ...hornRunBrewing2,
       date: '02.07.26',
       subtitle: '5PM - 8PM',
+    },
+    {
+      ...blackMoonPublicHouse,
+      date: '02.13.26',
+      subtitle: '6PM - 8PM',
     },
     {
       ...annex,
@@ -729,6 +740,11 @@ export default function UpcomingShowCard() {
       ...brickyardSugarloaf,
       date: '03.21.26',
       subtitle: '4PM - 7PM',
+    },
+    {
+      ...blackMoonPublicHouse,
+      date: '03.27.26',
+      subtitle: '7PM - 9PM',
     },
     {
       ...shipyardBrewHaus,
