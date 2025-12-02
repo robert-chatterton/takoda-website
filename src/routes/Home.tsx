@@ -2,6 +2,7 @@ import AboutMeCard from '../cards/AboutMeCard';
 import FeaturedCard from '../cards/FeaturedCard';
 import FeaturedImageCard from '../cards/FeaturedImageCard';
 import { GalleryCard } from '../cards/GalleryCard';
+import PreviouslyPlayed from '../cards/PreviouslyPlayed';
 import UpcomingShowCard from '../cards/UpcomingShowCard';
 import Header from '../components/Header';
 import { email } from '../constants/links';
@@ -19,6 +20,7 @@ export default function Home() {
           </div>
           <div className='flex flex-col items-center'>
             <FeaturedCard />
+            <PreviouslyPlayed />
             <GalleryCard />
           </div>
         </div>
