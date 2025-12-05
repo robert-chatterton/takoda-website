@@ -3,6 +3,7 @@ import { Switch } from '@mui/material';
 import {
   annex,
   blackMoonPublicHouse,
+  brickyardPortland,
   brickyardSkowhegan,
   brickyardSugarloaf,
   exploreAcadiaCottages,
@@ -735,6 +736,11 @@ export default function UpcomingShowCard() {
       ...annex,
       date: '02.14.26',
       subtitle: '4PM - 5:30PM',
+    },
+    {
+      ...brickyardPortland,
+      date: '02.28.26',
+      subtitle: '6PM - 8PM',
     },
     {
       ...brickyardSugarloaf,

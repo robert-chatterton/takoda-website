@@ -10,9 +10,9 @@ export default function PreviouslyPlayed() {
         <p>The Annex, Bar Harbor</p>
         <p>The Ivy Manor Inn, Bar Harbor</p>
         <p>The Criterion Theatre, Bar Harbor</p>
-        <p>The Nor’Easter, Northeast Harbor</p>
+        <p>The Nor'Easter, Northeast Harbor</p>
         <p>The Thirsty Pig, Portland</p>
-        <p>Paddy’s Irish Pub, Bar Harbor</p>
+        <p>Paddy's Irish Pub, Bar Harbor</p>
         <p>The Pickled Wrinkle, Birch Harbor</p>
         <p>Nocturnem Draft Haus, Bangor</p>
         <p>The Travelin Lobster, Bar Harbor</p>

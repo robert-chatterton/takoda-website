@@ -5,9 +5,9 @@ export function GalleryCard() {
   return (
     <Card slug={'gallery'} title={'Gallery'}>
       <div className='-mt-4'>
-        <GalleryMedia src={require('../assets/gallery/DSC00137.jpeg')} />
-        <GalleryMedia src={require('../assets/gallery/DSC_0746.png')} />
-        <GalleryMedia src={require('../assets/gallery/IMG_3403.jpeg')} />
+        <GalleryMedia src={require('../assets/DSC00578.JPG')} />
+        <GalleryMedia src={require('../assets/DSC00765.JPG')} />
+        <GalleryMedia src={require('../assets/IMG_8379.jpg')} />
       </div>
     </Card>
   );

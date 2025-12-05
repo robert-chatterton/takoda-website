@@ -4,9 +4,6 @@ import GalleryMedia from '../components/GalleryMedia';
 export default function AboutMeCard() {
   return (
     <Card slug={'about'} title={'About Me'}>
-      <div className='-mt-4'>
-        <GalleryMedia src={require('../assets/gallery/IMG_2797.jpeg')} />
-      </div>
       <div className='font-thin'>
         <p>
           Takoda Dionne is a live looping singer-songwriter born and raised on
@@ -14,12 +11,12 @@ export default function AboutMeCard() {
         </p>
         <p>
           He plays a curated selection of covers and originals, both live looped
-          and acoustic, using guitar and piano. Takoda’s music is a thoughtful
+          and acoustic, using guitar and piano. Takoda's music is a thoughtful
           blend of pop, rock, folk and hip-hop with honest lyrics. His
           impressive live performances are celebrated for his songwriting
           ability and technical musical skills.
         </p>
-        <GalleryMedia src={require('../assets/gallery/DSC_0272.png')} />
+        <GalleryMedia src={require('../assets/DSC_0272.png')} />
         <p>
           Using live looping, Takoda layers acoustic guitar, percussion, bass
           and vocals using a single guitar and piano. He adds his fiery vocals
@@ -29,10 +26,11 @@ export default function AboutMeCard() {
         </p>
         <p>
           Takoda is a tireless performer who performs a two hour concert with
-          enthusiasm and effortless charm. Catch him if you can.
+          enthusiasm and effortless charm. Catch him if you can!
         </p>
       </div>
-      <GalleryMedia src={require('../assets/gallery/guitar.png')} />
+      <GalleryMedia src={require('../assets/DSC00743.JPG')} />
+      <GalleryMedia src={require('../assets/IMG_9008.jpeg')} />
     </Card>
   );
 }

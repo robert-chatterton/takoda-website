@@ -96,6 +96,12 @@ export const privateEvent = {
   format: 'Private Event',
 };
 
+export const brickyardPortland = {
+  url: 'https://maps.app.goo.gl/1VXmCs48gbaorWCPA',
+  format: 'Brickyard Hollow Brewery',
+  location: 'Portland, ME',
+};
+
 export const brickyardSkowhegan = {
   url: 'https://maps.app.goo.gl/cjRJ3Cyejztzu3iF7',
   format: 'Brickyard Hollow Brewery',

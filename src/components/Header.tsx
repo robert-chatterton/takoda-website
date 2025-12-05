@@ -3,7 +3,7 @@ import { useWindowDimensions } from '../hooks/useWindowDimensions';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { PiLinktreeLogo } from 'react-icons/pi';
 import { MdOutlineSchedule } from 'react-icons/md';
-import { linktree } from '../constants/links';
+import { email, linktree } from '../constants/links';
 
 export default function Header() {
   const { width } = useWindowDimensions();
@@ -94,8 +94,15 @@ export default function Header() {
       {openMenu && (
         <div className='bg-black fixed top-0 left-0 w-screen h-screen z-20 flex flex-row justify-center items-start pt-16 px-10 text-white'>
           <div className='mt-1'>
-            <p className='text-xl font-semibold tracking-wide mb-5 text-nowrap'>
+            <p className='text-xl font-semibold tracking-wide text-nowrap'>
               Takoda Dionne
+            </p>
+            <p className='text-xs font-thin my-4'>
+              Send me an{' '}
+              <a className='underline' href={`mailto:${email}`}>
+                email
+              </a>
+              {' '}to book me for a private party!
             </p>
             {menu}
           </div>
