@@ -23,38 +23,6 @@ export default function Header() {
             </div>
           </a>
         </li>
-        {/* <li>
-          <a href={youtube}>
-            <div className='flex flex-row items-center gap-2'>
-              <FaYoutube color={width >= 768 ? '#000' : '#fff'} size={28} />
-              {width < 768 && <p>{youtubeHandle}</p>}
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href={instagram}>
-            <div className='flex flex-row items-center gap-2'>
-              <FaInstagram color={width >= 768 ? '#000' : '#fff'} size={28} />
-              {width < 768 && <p>{instagramHandle}</p>}
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href={facebook}>
-            <div className='flex flex-row items-center gap-2'>
-              <FaFacebook color={width >= 768 ? '#000' : '#fff'} size={28} />
-              {width < 768 && <p>{facebookHandle}</p>}
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href={`mailto:${email}`}>
-            <div className='flex flex-row items-center gap-2'>
-              <IoMdMail color={width >= 768 ? '#000' : '#fff'} size={28} />
-              {width < 768 && <p>{email}</p>}
-            </div>
-          </a>
-        </li> */}
         <li>
           <a href={linktree}>
             <div className='flex flex-row items-center gap-1 hover:underline'>
@@ -102,7 +70,7 @@ export default function Header() {
               <a className='underline' href={`mailto:${email}`}>
                 email
               </a>
-              {' '}to book me for a private party!
+              {' '}to book me for a private party or event!
             </p>
             {menu}
           </div>

@@ -12,7 +12,7 @@ export default function FeaturedImageCard() {
           <a className='underline' href={`mailto:${email}`}>
             email
           </a>
-          {' '}to book me for a private party!
+          {' '}to book me for a private party or event!
         </p>
       </div>
     </Card>
