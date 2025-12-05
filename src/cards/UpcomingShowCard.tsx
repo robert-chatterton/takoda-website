@@ -748,14 +748,14 @@ export default function UpcomingShowCard() {
       subtitle: '4PM - 7PM',
     },
     {
-      ...blackMoonPublicHouse,
-      date: '03.27.26',
-      subtitle: '7PM - 9PM',
-    },
-    {
       ...shipyardBrewHaus,
       date: '03.22.26',
       subtitle: '11AM - 2PM',
+    },
+    {
+      ...blackMoonPublicHouse,
+      date: '03.27.26',
+      subtitle: '7PM - 9PM',
     },
     {
       ...brickyardSugarloaf,
