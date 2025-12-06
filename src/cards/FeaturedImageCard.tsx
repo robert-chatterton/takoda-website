@@ -8,11 +8,11 @@ export default function FeaturedImageCard() {
       <div className='-mt-4'>
         <GalleryMedia src={require('../assets/DSC00564.JPG')} />
         <p className='font-thin mt-3'>
-          Send me an{' '}
+          Send me an email at{' '}
           <a className='underline' href={`mailto:${email}`}>
-            email
+            {email}
           </a>
-          {' '}to book me for a private party or event!
+          {' '}to book me for a show, private party, or event!
         </p>
       </div>
     </Card>

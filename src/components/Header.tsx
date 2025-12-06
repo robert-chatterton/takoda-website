@@ -66,11 +66,11 @@ export default function Header() {
               Takoda Dionne
             </p>
             <p className='text-xs font-thin my-4'>
-              Send me an{' '}
+              Send me an email at{' '}
               <a className='underline' href={`mailto:${email}`}>
-                email
+                {email}
               </a>
-              {' '}to book me for a private party or event!
+              {' '}to book me for a show, private party, or event!
             </p>
             {menu}
           </div>
