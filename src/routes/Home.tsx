@@ -35,7 +35,6 @@ export default function Home() {
               {email}
             </a>
           </p>
-          <p>Photography by Bos Lisy</p>
         </div>
       </div>
       <div className='fixed top-0 left-0 h-screen w-screen bg-black z-0 opacity-10' />
