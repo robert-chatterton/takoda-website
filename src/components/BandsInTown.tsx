@@ -72,7 +72,7 @@ export function BandsInTownShowList() {
       
       data-play-my-city-position="hidden"
       data-play-my-city-alignment="center"
-      data-play-my-city-header-text="Don’t see a show near you?"
+      data-play-my-city-header-text="Don't see a show near you?"
       data-play-my-city-cta-size="medium"
       data-play-my-city-cta-text="REQUEST A SHOW"
       data-play-my-city-cta-icon="false"
@@ -93,7 +93,7 @@ export function BandsInTownShowList() {
       
       data-language="en"
       data-layout-breakpoint="900"
-      data-app-id="f229d8fbaeb307759a68136e159e5e7d"
+      data-app-id="js_takodadionne.com"
       data-affil-code=""
       data-bit-logo-position="bottomRight"
       data-bit-logo-color="rgba(66,66,66,1)"
