@@ -12,7 +12,6 @@ export default function Home() {
     <>
       <div className='overscroll-none flex flex-col items-center z-20 scroll-py-96'>
         <Header />
-        <div className='h-[120px]' />
         <div className='lg:w-4/5 grid grid-cols-1 lg:grid-cols-2'>
           <div className='flex flex-col items-center'>
             <FeaturedImageCard />

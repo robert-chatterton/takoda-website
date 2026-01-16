@@ -24,7 +24,7 @@ export default function PreviouslyPlayed() {
           href={`https://star977fm.com/index.php/star-morning-show/morning-music-showcase/`}
           className='text-sm font-bold hover:underline'
         >
-          Live performances/interviews on Star 97.7 radio 7/14/25 and 8/18/25
+          Live performances/interviews on Star 97.7 radio!
         </a>
       </div>
     </Card>

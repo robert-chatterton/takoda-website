@@ -6,7 +6,7 @@ const router = createBrowserRouter([{ path: '/', Component: Home }]);
 
 export default function App() {
   useScripts();
-  
+
   return (
     <div>
       <RouterProvider router={router} />

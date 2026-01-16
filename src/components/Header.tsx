@@ -4,6 +4,7 @@ import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { PiLinktreeLogo } from 'react-icons/pi';
 import { MdOutlineSchedule } from 'react-icons/md';
 import { email, linktree } from '../constants/links';
+import { PromotionalBanner } from './PromotionalBanner';
 
 export default function Header() {
   const { width } = useWindowDimensions();
@@ -59,6 +60,13 @@ export default function Header() {
         )}
       </div>
 
+      <PromotionalBanner
+        title={'"Back To" is out now across all major streaming platforms!'}
+        href={
+          'https://distrokid.com/hyperfollow/takodadionne/back-to?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid'
+        }
+      />
+
       {openMenu && (
         <div className='bg-black fixed top-0 left-0 w-screen h-screen z-20 flex flex-row justify-center items-start pt-16 px-10 text-white'>
           <div className='mt-1'>
@@ -69,8 +77,8 @@ export default function Header() {
               Send me an email at{' '}
               <a className='underline' href={`mailto:${email}`}>
                 {email}
-              </a>
-              {' '}to book me for a show, private party, or event!
+              </a>{' '}
+              to book me for a show, private party, or event!
             </p>
             {menu}
           </div>

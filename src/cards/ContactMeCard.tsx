@@ -8,7 +8,7 @@ export default function ContactMeCard() {
       <p className='mt-4 font-thin'>
         To book a private party, benefit, or gig it is best to reach me by my
         email,{' '}
-        <a className='underline' href={`mailto:${email}`}>
+        <a className='hover:underline font-semibold' href={`mailto:${email}`}>
           {email}
         </a>
         .

@@ -9,10 +9,10 @@ export default function FeaturedImageCard() {
         <GalleryMedia src={require('../assets/DSC00564.JPG')} />
         <p className='font-thin mt-3'>
           Send me an email at{' '}
-          <a className='underline' href={`mailto:${email}`}>
+          <a className='hover:underline font-semibold' href={`mailto:${email}`}>
             {email}
-          </a>
-          {' '}to book me for a show, private party, or event!
+          </a>{' '}
+          to book me for a show, private party, or event!
         </p>
       </div>
     </Card>
