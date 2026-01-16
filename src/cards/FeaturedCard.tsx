@@ -20,9 +20,17 @@ export default function FeaturedCard() {
       </p>
 
       <p className='text-md font-thin text-center'>"I LOVE this track!"</p>
-      <p className='text-xs font-thin text-center'>
+      <p className='text-xs font-thin text-center mb-2'>
         Adam Ayan, 7-time Grammy Award-winning mastering engineer
       </p>
+
+      <iframe
+        height={250}
+        src={youtubeEmbedLink}
+        title='YouTube video player'
+        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+        allowFullScreen
+      />
 
       <ul className='list-disc text-sm font-semibold pl-3 my-2'>
         <li>
@@ -61,15 +69,7 @@ export default function FeaturedCard() {
         </li>
       </ul>
 
-      <iframe
-        height={250}
-        src={youtubeEmbedLink}
-        title='YouTube video player'
-        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-        allowFullScreen
-      />
-
-      <p className='text-sm font-thin mt-2'>
+      <p className='text-sm font-thin mb-2'>
         Check out more of my songs on{' '}
         <a
           className='hover:underline font-semibold'
@@ -90,6 +90,14 @@ export default function FeaturedCard() {
         </a>
         !
       </p>
+
+      <iframe
+        height={250}
+        src={'https://www.youtube.com/embed/w83gyDOEjGU?si=37-HO1EDQhsH7Kl2'}
+        title='YouTube video player'
+        allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+        allowFullScreen
+      />
     </Card>
   );
 }
