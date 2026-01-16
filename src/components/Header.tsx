@@ -68,7 +68,7 @@ export default function Header() {
       />
 
       {openMenu && (
-        <div className='bg-black fixed top-0 left-0 w-screen h-screen z-20 flex flex-row justify-center items-start pt-16 px-10 text-white'>
+        <div className='bg-black fixed top-0 left-0 w-screen h-screen z-[20000] flex flex-row justify-center items-start pt-16 px-10 text-white'>
           <div className='mt-1'>
             <p className='text-xl font-semibold tracking-wide text-nowrap'>
               Takoda Dionne

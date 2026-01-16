@@ -9,7 +9,7 @@ export function PromotionalBanner({
     <div className='h-[120px]' />
   ) : (
     <div className='flex flex-col items-center justify-end h-[160px] w-full bg-red-900'>
-      <div className='p-2 z-[10000]'>
+      <div className='p-2 z-[10000] text-sm md:text-md'>
         {!!href ? (
           <a
             href={href}
