@@ -21,7 +21,7 @@ export default function FeaturedCard() {
 
       <p className='text-md font-thin text-center'>"I LOVE this track!"</p>
       <p className='text-xs font-thin text-center mb-2'>
-        Adam Ayan, 7-time Grammy Award-winning mastering engineer
+        Adam Ayan, 8-time Grammy Award-winning mastering engineer
       </p>
 
       <iframe
