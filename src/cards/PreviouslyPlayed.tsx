@@ -21,8 +21,19 @@ export default function PreviouslyPlayed() {
         <p>Shipyard Brew Haus @Sugarloaf Inn, Carrabassett Valley</p>
         <br />
         <a
+          href={`https://www.mainepublic.org/northeast-corner/2026-02-22/northeast-corner-february-22nd-2026`}
+          className='text-sm font-bold hover:underline'
+          target='_blank'
+          rel='noreferrer'
+        >
+          My interview on Northeast Corner on Maine Public Radio 
+        </a>
+        <br />
+        <a
           href={`https://star977fm.com/index.php/star-morning-show/morning-music-showcase/`}
           className='text-sm font-bold hover:underline'
+          target='_blank'
+          rel='noreferrer'
         >
           Live performances/interviews on Star 97.7 radio!
         </a>
