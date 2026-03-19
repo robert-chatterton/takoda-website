@@ -21,6 +21,38 @@ export default function PreviouslyPlayed() {
         <p>Shipyard Brew Haus @Sugarloaf Inn, Carrabassett Valley</p>
         <br />
         <a
+          href={`https://www.youtube.com/watch?v=Do_yTNvO4q0`}
+          className='text-sm font-bold hover:underline'
+          target='_blank'
+          rel='noreferrer'
+        >
+          My interview on the Nite Show Performance Series
+        </a>
+        <br />
+        <ul className='list-disc ml-4'>
+          <li>
+            <a
+              href={`https://www.youtube.com/watch?v=T_6N4c1uRVA`}
+              className='text-sm font-bold hover:underline'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Performing "Back To"
+            </a>
+          </li>
+          <li>
+            <a
+              href={`https://www.youtube.com/watch?v=M3Cdff2G5lg`}
+              className='text-sm font-bold hover:underline'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Performing "The Scientist"
+            </a>
+          </li>
+        </ul>
+        <br />
+        <a
           href={`https://www.mainepublic.org/northeast-corner/2026-02-22/northeast-corner-february-22nd-2026`}
           className='text-sm font-bold hover:underline'
           target='_blank'
