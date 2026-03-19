@@ -17,8 +17,8 @@ export default function PreviouslyPlayed() {
         <p>Nocturnem Draft Haus, Bangor</p>
         <p>The Travelin Lobster, Bar Harbor</p>
         <p>Horn Run Brewing, Eastport</p>
-        <p>Brickyard Hollow Brewing, Showhegan</p>
-        <p>Shipyard Brew Haus @Sugarloaf Inn, Carrabassett Valley</p>
+        <p>Brickyard Hollow Brewing, Skowhegan, Sugarloaf, and Portland</p>
+        <p>Shipyard Brew Haus, Sugarloaf</p>
         <br />
         <a
           href={`https://www.youtube.com/watch?v=Do_yTNvO4q0`}
@@ -47,7 +47,7 @@ export default function PreviouslyPlayed() {
               target='_blank'
               rel='noreferrer'
             >
-              Performing "The Scientist"
+              Performing a cover of "The Scientist" by Coldplay
             </a>
           </li>
         </ul>
