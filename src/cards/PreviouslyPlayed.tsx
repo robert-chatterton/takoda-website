@@ -58,7 +58,7 @@ export default function PreviouslyPlayed() {
           target='_blank'
           rel='noreferrer'
         >
-          My interview on Northeast Corner on Maine Public Radio 
+          My interview on Northeast Corner on MPR
         </a>
         <br />
         <a
