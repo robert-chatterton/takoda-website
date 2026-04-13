@@ -4,25 +4,25 @@ import { mainSong, youtube, youtubeEmbedLink } from '../constants/links';
 export default function FeaturedCard() {
   return (
     <Card title='Listen' slug='featured'>
-      <p className='text-sm font-thin'>
+      <p className='text-sm font-thin mb-2'>
         I just released{' '}
         <a
           href={
-            'https://distrokid.com/hyperfollow/takodadionne/back-to?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid'
+            'https://distrokid.com/hyperfollow/takodadionne/train-station?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid'
           }
           className='hover:underline font-semibold'
           target='_blank'
           rel='noreferrer'
         >
-          Back To
+          Train Station
         </a>
         , available on all major streaming platforms!
       </p>
 
-      <p className='text-md font-thin text-center'>"I LOVE this track!"</p>
+      {/* <p className='text-md font-thin text-center'>"I LOVE this track!"</p>
       <p className='text-xs font-thin text-center mb-2'>
         Adam Ayan, 8-time Grammy Award-winning mastering engineer
-      </p>
+      </p> */}
 
       <iframe
         height={250}
@@ -39,7 +39,7 @@ export default function FeaturedCard() {
             rel='noreferrer'
             className='hover:underline'
             href={
-              'https://open.spotify.com/album/3AK9ytsKHMciNN1w3moCqi?referral=labelaffiliate&utm_source=1110lPbHtWw&utm_medium=Indie_Distrokid&utm_campaign=labelaffiliate'
+              'https://open.spotify.com/album/0jFujfiUoCixnsBuXJF5uS?si=DpWk9XOIQju63Smgn7_81A'
             }
           >
             Listen on Spotify
@@ -50,7 +50,7 @@ export default function FeaturedCard() {
             target='_blank'
             rel='noreferrer'
             className='hover:underline'
-            href={'https://music.apple.com/us/album/back-to-single/1860161361'}
+            href={'https://music.apple.com/us/album/train-station-single/1885216793'}
           >
             Listen on Apple Music
           </a>
@@ -61,7 +61,7 @@ export default function FeaturedCard() {
             rel='noreferrer'
             className='hover:underline'
             href={
-              'https://distrokid.com/hyperfollow/takodadionne/back-to?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid'
+              'https://distrokid.com/hyperfollow/takodadionne/train-station?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid'
             }
           >
             View all streaming platforms

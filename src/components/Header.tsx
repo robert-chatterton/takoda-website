@@ -61,9 +61,9 @@ export default function Header() {
       </div>
 
       <PromotionalBanner
-        title={'"Back To" is out now across all major streaming platforms!'}
+        title={'"Train Station" is out now across all major streaming platforms!'}
         href={
-          'https://distrokid.com/hyperfollow/takodadionne/back-to?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid'
+          'https://distrokid.com/hyperfollow/takodadionne/train-station?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid'
         }
       />
 
