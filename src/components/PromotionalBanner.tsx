@@ -8,8 +8,8 @@ export function PromotionalBanner({
   return title.length === 0 ? (
     <div className='h-[120px]' />
   ) : (
-    <div className='flex flex-col items-center justify-end h-[165px] sm:h-[160px] w-full bg-red-900'>
-      <div className='pb-2 px-12 z-[10000] text-xs text-center md:text-md'>
+    <div className='flex flex-col items-center justify-end h-[180px] sm:h-[160px] w-full bg-red-900'>
+      <div className='pb-2 px-2 md:px-12 z-[10000] text-xs text-center md:text-md'>
         {!!href ? (
           <a
             href={href}
