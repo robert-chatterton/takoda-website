@@ -46,7 +46,7 @@ export default function Header() {
           <p className='text-xl md:text-3xl font-semibold tracking-wide text-nowrap'>
             Takoda Dionne
           </p>
-          <p className='text-lg md:text-xl font-light md:tracking-widest  text-nowrap'>
+          <p className='text-lg md:text-xl font-light md:tracking-widest text-nowrap'>
             Live Looping Musician
           </p>
         </div>
@@ -61,7 +61,7 @@ export default function Header() {
       </div>
 
       <PromotionalBanner
-        title={'My new EP, Prologue, is available in CD format at live shows and Vinyl Vogue in Ellsworth, ME'}
+        title={'My new EP "Prologue" now available on CD at my shows and Vinyl Vogue in Ellsworth, ME'}
         href={
           'https://vinylvogue.com'
         }
