@@ -61,9 +61,9 @@ export default function Header() {
       </div>
 
       <PromotionalBanner
-        title={'"Train Station" is out now across all major streaming platforms!'}
+        title={'My new EP, Prologue, is available in CD format at live shows and Vinyl Vogue in Ellsworth, ME'}
         href={
-          'https://distrokid.com/hyperfollow/takodadionne/train-station?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid'
+          'https://vinylvogue.com'
         }
       />
 
