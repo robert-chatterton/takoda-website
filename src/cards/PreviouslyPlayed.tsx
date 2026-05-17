@@ -2,23 +2,16 @@ import Card from '../components/Card';
 
 export default function PreviouslyPlayed() {
   return (
-    <Card slug={'previous-venues'} title={'Previous Venues'}>
+    <Card slug={'previous-venues'} title={'Media Appearances'}>
       <div className='font-thin'>
-        <p>Orono Brewing Company, Orono</p>
-        <p>Fogtown Brewing Company, Ellsworth</p>
-        <p>The Black Moon Public House, Ellsworth</p>
-        <p>The Annex, Bar Harbor</p>
-        <p>The Ivy Manor Inn, Bar Harbor</p>
-        <p>The Criterion Theatre, Bar Harbor</p>
-        <p>The Nor'Easter, Northeast Harbor</p>
-        <p>The Thirsty Pig, Portland</p>
-        <p>Paddy's Irish Pub, Bar Harbor</p>
-        <p>The Pickled Wrinkle, Birch Harbor</p>
-        <p>Nocturnem Draft Haus, Bangor</p>
-        <p>The Travelin Lobster, Bar Harbor</p>
-        <p>Horn Run Brewing, Eastport</p>
-        <p>Brickyard Hollow Brewing, Skowhegan, Sugarloaf, and Portland</p>
-        <p>Shipyard Brew Haus, Sugarloaf</p>
+        <a
+          href={'https://www.mdislander.com/lifestyle/arts/rhythms-and-red-converse-takoda-dionnes-musical-success/article_c7f8ce9c-56a4-447e-a64e-4513cb37550c.html?utm_campaign=blox&utm_source=facebook&utm_medium=social&fbclid=IwY2xjawRzFLJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeVk3TbG3M35AODBDZWEJ0OnF0Mfo3lW4SOOCr3AXqQ6yoGgZwXQQWbTZtesg_aem_oT-u_fOMSoJNt_8BBwQDtA'}
+          className='text-sm font-bold hover:underline'
+          target='_blank'
+          rel='noreferrer'
+        >
+          MDI Islander feature
+        </a>
         <br />
         <a
           href={`https://www.youtube.com/watch?v=Do_yTNvO4q0`}
@@ -51,7 +44,6 @@ export default function PreviouslyPlayed() {
             </a>
           </li>
         </ul>
-        <br />
         <a
           href={`https://www.mainepublic.org/northeast-corner/2026-02-22/northeast-corner-february-22nd-2026`}
           className='text-sm font-bold hover:underline'
@@ -69,6 +61,23 @@ export default function PreviouslyPlayed() {
         >
           Live performances/interviews on Star 97.7 radio!
         </a>
+        <br />
+        <p className='my-2 font-semibold text-lg tracking-wider'>Previous Venues</p>
+        <p>Orono Brewing Company, Orono</p>
+        <p>Fogtown Brewing Company, Ellsworth</p>
+        <p>The Black Moon Public House, Ellsworth</p>
+        <p>The Annex, Bar Harbor</p>
+        <p>The Ivy Manor Inn, Bar Harbor</p>
+        <p>The Criterion Theatre, Bar Harbor</p>
+        <p>The Nor'Easter, Northeast Harbor</p>
+        <p>The Thirsty Pig, Portland</p>
+        <p>Paddy's Irish Pub, Bar Harbor</p>
+        <p>The Pickled Wrinkle, Birch Harbor</p>
+        <p>Nocturnem Draft Haus, Bangor</p>
+        <p>The Travelin Lobster, Bar Harbor</p>
+        <p>Horn Run Brewing, Eastport</p>
+        <p>Brickyard Hollow Brewing, Skowhegan, Sugarloaf, and Portland</p>
+        <p>Shipyard Brew Haus, Sugarloaf</p>
       </div>
     </Card>
   );
