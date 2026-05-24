@@ -8,13 +8,13 @@ export default function FeaturedCard() {
         I just released{' '}
         <a
           href={
-            'https://distrokid.com/hyperfollow/takodadionne/train-station?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid'
+            'https://distrokid.com/hyperfollow/takodadionne/to-find-you'
           }
           className='hover:underline font-semibold'
           target='_blank'
           rel='noreferrer'
         >
-          Train Station
+          To Find You
         </a>
         , available on all major streaming platforms!
       </p>

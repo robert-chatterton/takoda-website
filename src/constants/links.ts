@@ -1,7 +1,7 @@
 export const youtube =
   'https://www.youtube.com/channel/UC5ApizsR_423zo_Qwm_C2Aw';
 export const youtubeEmbedLink =
-  'https://www.youtube.com/embed/N2givJ9tIgo?si=7gUoYuePVPNFO25w';
+  'https://www.youtube.com/embed/KR9TF1OZZGg?si=qkRerw_6JBNxg1sK';
 
 export const instagram = 'https://www.instagram.com/takodadionne/';
 export const instagramHandle = '@takodadionne';
